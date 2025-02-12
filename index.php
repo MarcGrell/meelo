@@ -19,9 +19,8 @@ require "settings/init.php";
 
 <body>
 
-
 <!-- Date/Time Picker -->
-<div class="container d-flex justify-content-center align-items-center min-vh-100 text-center">
+<div class="container d-flex justify-content-center align-items-center min-vh-100 text-center section" id="section-1">
     <div class="w-100 w-sm-75 w-md-50 w-lg-25">
         <div class="text-center mt-4">
             <img src="https://placehold.co/100x50@2x.png" alt="Logo" class="logo">
@@ -36,24 +35,20 @@ require "settings/init.php";
             </div>
 
             <div class="d-flex flex-column align-items-center">
-                <button type="button" class="btn btn-farve w-100 mb-2">Videre →</button>
-                <button type="button" class="btn btn-secondary w-100">← Tilbage</button>
+                <button type="button" class="btn btn-farve w-100 mb-2 next-btn">Videre →</button>
             </div>
         </form>
-
-        <p id="output" class="mt-3"></p>
     </div>
 </div>
 
 <!-- Cake Designer -->
-<div class="container d-flex justify-content-center align-items-center min-vh-100">
+<div class="container d-flex justify-content-center align-items-center min-vh-100 text-center section d-none" id="section-2">
     <div class="w-100 w-sm-75 w-md-50 w-lg-25">
         <div class="text-center mt-4">
             <img src="https://placehold.co/100x50@2x.png" alt="Logo" class="logo">
         </div>
-        <h1 class="mt-4 text-center">Design din kage</h1>
+
         <form class="mt-4">
-            <!-- Dropdown Menus -->
             <div class="mb-3">
                 <select class="form-select mb-2" aria-label="Dropdown 1">
                     <option selected>Select option 1</option>
@@ -87,30 +82,28 @@ require "settings/init.php";
                 </select>
             </div>
 
-            <!-- Text Field -->
             <div class="mb-3">
                 <textarea class="form-control" placeholder="Enter your text here" rows="3"></textarea>
             </div>
 
-            <!-- Buttons -->
             <div class="d-flex flex-column align-items-center">
-                <button type="button" class="btn btn-farve w-100 mb-2">Videre →</button>
-                <button type="button" class="btn btn-secondary w-100">← Tilbage</button>
+                <button type="button" class="btn btn-farve w-100 mb-2 next-btn">Videre →</button>
+                <button type="button" class="btn btn-secondary w-100 prev-btn">← Tilbage</button>
             </div>
         </form>
     </div>
 </div>
 
 <!-- Customer Info -->
-<div class="container d-flex justify-content-center align-items-center min-vh-100">
+<div class="container d-flex justify-content-center align-items-center min-vh-100 text-center section d-none" id="section-3">
     <div class="w-100 w-sm-75 w-md-50 w-lg-25">
         <div class="text-center mt-4">
             <img src="https://placehold.co/100x50@2x.png" alt="Logo" class="logo">
         </div>
 
-        <h1 class="mt-4 text-center">Dine oplysninger</h1>
+        <h1 class="text-center mb-4">Dine oplysninger</h1>
 
-        <form class="mt-3">
+        <form>
             <div class="mb-3">
                 <label for="name" class="form-label">Navn*</label>
                 <input type="text" class="form-control" id="name" placeholder="Jens Bager">
@@ -131,13 +124,14 @@ require "settings/init.php";
                 <label for="notes" class="form-label">Bemærkninger</label>
                 <textarea class="form-control" id="notes" placeholder="Har du noget at tilføje?"></textarea>
             </div>
+
             <div class="d-flex flex-column align-items-center">
-                <button type="button" class="btn btn-farve w-100 mb-2">Videre →</button>
-                <button type="button" class="btn btn-secondary w-100">← Tilbage</button>
+                <button type="button" class="btn btn-secondary w-100 prev-btn">← Tilbage</button>
             </div>
         </form>
     </div>
 </div>
+
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
@@ -152,6 +146,22 @@ require "settings/init.php";
         // Display the selected date and time
         document.getElementById('output').innerText = `Selected Date and Time: ${datetimeInput}`;
     });
+
+    let currentSection = 0;
+    const sections = document.querySelectorAll('.section');
+    const nextBtns = document.querySelectorAll('.next-btn');
+    const prevBtns = document.querySelectorAll('.prev-btn');
+
+    nextBtns.forEach(btn => btn.addEventListener('click', () => navigate(1)));
+    prevBtns.forEach(btn => btn.addEventListener('click', () => navigate(-1)));
+
+    function navigate(direction) {
+        sections[currentSection].classList.add('d-none');
+        currentSection += direction;
+        if (currentSection < 0) currentSection = 0;
+        if (currentSection >= sections.length) currentSection = sections.length - 1;
+        sections[currentSection].classList.remove('d-none');
+    }
 </script>
 </body>
 </html>
