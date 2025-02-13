@@ -44,7 +44,7 @@ require "settings/init.php";
 
     <div class="row">
         <div class="d-flex justify-content-center align-items-center">
-            <button class="btn-custom2 p-3 m-5 btn btn-orange rounded-3 fs-6 text-white">NY BESTILLING</button>
+            <button class="btn-custom2 p-3 m-5 btn btn-primary rounded-3 fs-6 text-white">NY BESTILLING</button>
         </div>
     </div>
 </div>
