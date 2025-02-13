@@ -37,7 +37,7 @@ require "settings/init.php";
         </div>
 
         <div class="d-flex justify-content-center align-items-center">
-            <img src="images/crossaintLogo.svg" alt="Croissant med flueben" class="mx-5 mt-3 mb-5">
+            <img src="images/croissantCheckmark.png" alt="Croissant med flueben" class="mx-5 mt-3 mb-5 w-75 checkmarkLogo">
         </div>
 
         <div class="d-flex justify-content-center align-items-center">
