@@ -22,11 +22,6 @@ require "settings/init.php";
     <script src="https://kit.fontawesome.com/30d6e0b537.js" crossorigin="anonymous"></script>
 
 
-
-
-
-
-
     <style>
         .stepprocessbar {
             display: flex;
@@ -121,11 +116,7 @@ require "settings/init.php";
 
 
 
-
-
-
 </head>
-
 <body>
 
 
@@ -136,60 +127,68 @@ require "settings/init.php";
 
 
 
-<div class="stepprocessbar">
-    <div class="steps-horizontal">
-        <div class="step-horizontal complete">
-            <div class="step-icon">
-                <i class="fa-solid fa-check"></i>
-            </div>
-            <div class="step-title">Afhentning</div>
-        </div>
-        <div class="step-horizontal active">
-            <div class="step-icon">
-                <i class="fa-regular fa-circle-dot"></i>
-            </div>
-            <div class="step-title">Kagetype</div>
-        </div>
-        <div class="step-horizontal">
-            <div class="step-icon">
-                <i class="fa-regular fa-circle-dot"></i>
-            </div>
-            <div class="step-title">Tilføjelser</div>
-        </div>
-        <div class="step-horizontal">
-            <div class="step-icon">
-                <i class="fa-regular fa-circle-dot"></i>
-            </div>
-            <div class="step-title">Oplysninger</div>
-        </div>
-        <div class="step-horizontal">
-            <div class="step-icon">
-                <i class="fa-regular fa-circle-dot"></i>
-            </div>
-            <div class="step-title">Gennemse</div>
-        </div>
-        <div class="step-horizontal">
-            <div class="step-icon">
-                <i class="fa-regular fa-circle-dot"></i>
-            </div>
-            <div class="step-title">Bekræftelse</div>
-        </div>
-    </div>
-</div>
-
-
-
-
-
-
-
 
 
 <div class="container">
-    <div class="row justify-content-center px-5">
+    <div class="row justify-content-center px-5 pt-5">
         <div>
             <h1 class="mb-5 text-center">Vælg din kagetype;</h1>
         </div>
+
+
+
+
+
+
+        <div class="stepprocessbar">
+            <div class="steps-horizontal">
+                <div class="step-horizontal complete">
+                    <div class="step-icon">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <div class="step-title">Afhentning</div>
+                </div>
+                <div class="step-horizontal active">
+                    <div class="step-icon">
+                        <i class="fa-regular fa-circle-dot"></i>
+                    </div>
+                    <div class="step-title">Kagetype</div>
+                </div>
+                <div class="step-horizontal">
+                    <div class="step-icon">
+                        <i class="fa-regular fa-circle-dot"></i>
+                    </div>
+                    <div class="step-title">Tilføjelser</div>
+                </div>
+                <div class="step-horizontal">
+                    <div class="step-icon">
+                        <i class="fa-regular fa-circle-dot"></i>
+                    </div>
+                    <div class="step-title">Oplysninger</div>
+                </div>
+                <div class="step-horizontal">
+                    <div class="step-icon">
+                        <i class="fa-regular fa-circle-dot"></i>
+                    </div>
+                    <div class="step-title">Gennemse</div>
+                </div>
+                <div class="step-horizontal">
+                    <div class="step-icon">
+                        <i class="fa-regular fa-circle-dot"></i>
+                    </div>
+                    <div class="step-title">Bekræftelse</div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
 
         <div class="d-flex flex-column flex-md-row justify-content-center align-items-start gap-4">
 
