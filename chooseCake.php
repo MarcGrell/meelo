@@ -26,8 +26,6 @@ require "settings/init.php";
 <body>
 
 
-
-
 <div class="container">
     <div class="row justify-content-center align-items-center px-5">
 
@@ -109,7 +107,7 @@ require "settings/init.php";
         </div>
 
         <div class="d-flex justify-content-center align-items-center flex-column pb-5 gap-2 mt-5">
-            <button class="btn btn-primary rounded-3 text-white p-3 px-4">VIDERE <i class="fa-sharp fa-solid fa-arrow-right"></i></button>
+            <button class="btn btn-primary rounded-3 text-white p-3 px-4">VIDERE<i class="fa-sharp fa-solid fa-arrow-right"></i></button>
             <button class="btn btn-white rounded-3 text-decoration-underline"><i class="fa-sharp fa-solid fa-arrow-left"></i> TILBAGE</button>
         </div>
 
