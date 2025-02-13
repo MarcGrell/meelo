@@ -20,8 +20,23 @@ require "settings/init.php";
 
 <body>
 
+<!-- Front page -->
+
+<div style="background-image: url('images/backgroundImage.png');
+background-size: cover;
+background-repeat: no-repeat;
+min-height: 100vh;"
+     class="d-flex flex-column section" id="section-1">
+
+    <div class="background-img container-fluid d-flex justify-content-center align-items-center vh-100">
+        <button type="button" class="btn-custom py-5 btn btn-primary rounded-5 fs-3 next-btn">NY BESTILLING</button>
+    </div>
+
+</div>
+
+
 <!-- Date/Time Picker -->
-<div class="container d-flex justify-content-center align-items-center min-vh-100 text-center section" id="section-1">
+<div class="container d-flex justify-content-center align-items-center min-vh-100 text-center section" id="section-2">
     <div class="w-100 w-sm-75 w-md-50 w-lg-25">
         <div class="text-center mt-4">
             <img src="https://placehold.co/100x50@2x.png" alt="Logo" class="logo">
@@ -36,14 +51,15 @@ require "settings/init.php";
             </div>
 
             <div class="d-flex flex-column align-items-center">
-                <button type="button" class="btn btn-farve w-100 mb-2 next-btn">Videre →</button>
+                <button type="button" class="btn btn-primary w-100 mb-2 next-btn">Videre →</button>
             </div>
         </form>
     </div>
 </div>
 
 <!-- Cake Designer -->
-<div class="container d-flex justify-content-center align-items-center min-vh-100 text-center section d-none" id="section-2">
+<div class="container d-flex justify-content-center align-items-center min-vh-100 text-center section d-none"
+     id="section-3">
     <div class="w-100 w-sm-75 w-md-50 w-lg-25">
         <div class="text-center mt-4">
             <img src="https://placehold.co/100x50@2x.png" alt="Logo" class="logo">
@@ -96,7 +112,7 @@ require "settings/init.php";
 </div>
 
 <!-- Customer Info -->
-<div class="container section d-none" id="section-3">
+<div class="container section d-none" id="section-4">
     <div class="row justify-content-center">
         <div class="col-12 text-center mt-4">
             <img src="https://placehold.co/100x50@2x.png" alt="Logo" class="logo">
@@ -122,7 +138,8 @@ require "settings/init.php";
                 </div>
                 <div class="mb-3">
                     <label for="notes" class="form-label">Bemærkninger</label>
-                    <textarea class="form-control" id="notes" name="notes" placeholder="Har du noget at tilføje?"></textarea>
+                    <textarea class="form-control" id="notes" name="notes"
+                              placeholder="Har du noget at tilføje?"></textarea>
                 </div>
                 <div class="d-flex flex-column align-items-center">
                     <button type="button" class="btn btn-farve w-100 mb-2 next-btn">Videre →</button>
@@ -134,7 +151,7 @@ require "settings/init.php";
 </div>
 
 <!-- Confirmation Page -->
-<div class="container section d-none" id="section-4">
+<div class="container section d-none" id="section-5">
     <div class="row justify-content-center">
         <div class="col-12 text-center mt-4">
             <h1>Bekræft dine oplysninger</h1>
