@@ -36,9 +36,9 @@ min-height: 100vh;"
 
 
 <!-- Date/Time Picker -->
-<div class="container d-flex justify-content-center align-items-center min-vh-100 text-center section" id="section-2">
-    <div class="w-100 w-sm-75 w-md-50 w-lg-25">
-        <div class="text-center mt-4">
+<div class="container d-flex justify-content-center align-items-center min-vh-100 text-center section d-none" id="section-2">
+    <div class="row justify-content-center">
+        <div class="col-12 text-center mt-4">
             <img src="https://placehold.co/100x50@2x.png" alt="Logo" class="logo">
         </div>
 
@@ -52,6 +52,7 @@ min-height: 100vh;"
 
             <div class="d-flex flex-column align-items-center">
                 <button type="button" class="btn btn-primary w-100 mb-2 next-btn">Videre →</button>
+                <button type="button" class="btn btn-secondary w-100 prev-btn">← Tilbage</button>
             </div>
         </form>
     </div>
@@ -60,11 +61,11 @@ min-height: 100vh;"
 <!-- Cake Designer -->
 <div class="container d-flex justify-content-center align-items-center min-vh-100 text-center section d-none"
      id="section-3">
-    <div class="w-100 w-sm-75 w-md-50 w-lg-25">
-        <div class="text-center mt-4">
+    <div class="row justify-content-center">
+        <div class="col-12 text-center mt-4">
             <img src="https://placehold.co/100x50@2x.png" alt="Logo" class="logo">
         </div>
-
+        <h1 class="mt-4">Design din kage</h1>
         <form id="cakeForm" class="mt-4">
             <div class="mb-3">
                 <select class="form-select mb-2" aria-label="Dropdown 1" name="option1">
@@ -104,7 +105,7 @@ min-height: 100vh;"
             </div>
 
             <div class="d-flex flex-column align-items-center">
-                <button type="button" class="btn btn-farve w-100 mb-2 next-btn">Videre →</button>
+                <button type="button" class="btn btn-primary w-100 mb-2 next-btn">Videre →</button>
                 <button type="button" class="btn btn-secondary w-100 prev-btn">← Tilbage</button>
             </div>
         </form>
@@ -142,7 +143,7 @@ min-height: 100vh;"
                               placeholder="Har du noget at tilføje?"></textarea>
                 </div>
                 <div class="d-flex flex-column align-items-center">
-                    <button type="button" class="btn btn-farve w-100 mb-2 next-btn">Videre →</button>
+                    <button type="button" class="btn btn-primary w-100 mb-2 next-btn">Videre →</button>
                     <button type="button" class="btn btn-secondary w-100 prev-btn">← Tilbage</button>
                 </div>
             </form>
@@ -157,10 +158,31 @@ min-height: 100vh;"
             <h1>Bekræft dine oplysninger</h1>
             <div id="confirmationDetails" class="mt-4 text-start"></div>
             <div class="d-flex flex-column align-items-center mt-3">
+                <button type="button" class="btn btn-success w-100 mb-2 next-btn">Bekræft og Send</button>
                 <button type="button" class="btn btn-secondary w-100 prev-btn">← Tilbage</button>
-                <button type="button" class="btn btn-success w-100 mt-2">Bekræft og Send</button>
             </div>
         </div>
+    </div>
+</div>
+
+<!-- Final Confirmation Page -->
+<div class="container d-flex flex-column section d-none" id="section-6"
+     style="background-image: url('images/backgroundLight.png');
+             background-size: cover;
+             background-repeat: no-repeat;
+             background-position: center;
+             min-height: 100vh;">
+
+    <div class="d-flex justify-content-center align-items-center">
+        <h2 class="m-5 pt-5">Tak for din bestilling!</h2>
+    </div>
+
+    <div class="d-flex justify-content-center align-items-center">
+        <img src="images/crossaintLogo.svg" alt="Croissant med flueben" class="mx-5 mt-3 mb-5">
+    </div>
+
+    <div class="d-flex justify-content-center align-items-center">
+        <button type="button" class="btn-custom2 p-3 m-5 btn btn-primary rounded-3 fs-6 text-white">NY BESTILLING</button>
     </div>
 </div>
 
@@ -174,7 +196,7 @@ min-height: 100vh;"
                 sections[currentSection].classList.add('d-none');
                 currentSection++;
                 sections[currentSection].classList.remove('d-none');
-                if (currentSection === sections.length - 1) displayConfirmation();
+                if (currentSection === sections.length - 2) displayConfirmation();
             }
         });
     });
