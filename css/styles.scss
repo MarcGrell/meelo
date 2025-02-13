@@ -12,7 +12,8 @@ $link-decoration: none;
 // 4. Include any default map overrides here
 $custom-colors: (
         "primary": #f19f01,
-        "haha": #ee17ff,
+        "secondary": #79d332,
+
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
