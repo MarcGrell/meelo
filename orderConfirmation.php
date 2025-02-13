@@ -21,32 +21,28 @@ require "settings/init.php";
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<body style="background-image: url('images/backgroundLight.png');
+<body>
+
+
+
+<div class="container d-flex flex-column"
+     style="background-image: url('images/backgroundLight.png');
              background-size: cover;
              background-repeat: no-repeat;
              background-position: center;
-             min-height: 100vh;"
-      class="d-flex flex-column">
+             min-height: 100vh;">
 
-
-<div class="container">
-    <div class="row">
         <div class="d-flex justify-content-center align-items-center">
             <h2 class="m-5 pt-5">Tak for din bestilling!</h2>
         </div>
-    </div>
 
-    <div class="row">
         <div class="d-flex justify-content-center align-items-center">
             <img src="images/crossaintLogo.svg" alt="Croissant med flueben" class="mx-5 mt-3 mb-5">
         </div>
-    </div>
 
-    <div class="row">
         <div class="d-flex justify-content-center align-items-center">
-            <button class="btn-custom2 p-3 m-5 btn btn-orange rounded-3 fs-6 text-white">NY BESTILLING</button>
+            <button type="button" class="btn-custom2 p-3 m-5 btn btn-primary rounded-3 fs-6 text-white">NY BESTILLING</button>
         </div>
-    </div>
 </div>
 
 
