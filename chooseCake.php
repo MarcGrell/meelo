@@ -36,9 +36,6 @@ require "settings/init.php";
         </div>
 
 
-
-
-
         <div class="stepprocessbar">
             <div class="steps-horizontal">
                 <div class="step-horizontal complete">
@@ -81,12 +78,6 @@ require "settings/init.php";
         </div>
 
 
-
-
-
-
-
-
         <div class="col-12 mb-4 col-md-4">
             <h5 class="text-start">Kagemand</h5>
             <label class="form-check-label w-100 kage-valg">
@@ -117,7 +108,7 @@ require "settings/init.php";
             </label>
         </div>
 
-        <div class="d-flex justify-content-center align-items-center flex-column pb-5 gap-2">
+        <div class="d-flex justify-content-center align-items-center flex-column pb-5 gap-2 mt-5">
             <button class="btn btn-primary rounded-3 text-white p-3 px-4">VIDERE <i class="fa-sharp fa-solid fa-arrow-right"></i></button>
             <button class="btn btn-white rounded-3 text-decoration-underline"><i class="fa-sharp fa-solid fa-arrow-left"></i> TILBAGE</button>
         </div>
