@@ -19,25 +19,18 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 @import "bootstrapComponents";
 
+
 // 5. Du kan lave styling her...
-.btn-custom {
-  width: 75%;
+.btn-custom {width: 75%;}
+
+.btn-custom2 {width: 50%;}
+
+@media (min-width: 768px){
+  .btn-custom {width: 50%;}
 }
 
-.btn-custom2 {
-  width: 50%;
-}
-
-@media (min-width: 768px) {
-  .btn-custom {
-    width: 50%;
-  }
-}
-
-@media (min-width: 992px) {
-  .btn-custom {
-    width: 50%;
-  }
+@media (min-width: 992px){
+  .btn-custom {width: 50%;}
 }
 
 /* Standardbillede uden kant */
