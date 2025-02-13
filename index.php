@@ -250,7 +250,7 @@ min-height: 100vh;"
             <h1>Bekræft dine oplysninger</h1>
             <div id="confirmationDetails" class="mt-4 text-start"></div>
             <div class="d-flex justify-content-center align-items-center flex-column pb-5 gap-2 mt-5">
-                <button type="button" class="btn btn-primary rounded-3 text-white p-3 px-4 next-btn">VIDERE <i class="fa-sharp fa-solid fa-arrow-right"></i></button>
+                <button type="button" class="btn btn-secondary rounded-3 text-white p-3 px-4 next-btn">BEKRÆFT ORDRE</button>
                 <button type="button" class="btn btn-white rounded-3 text-decoration-underline prev-btn"><i class="fa-sharp fa-solid fa-arrow-left"></i> TILBAGE</button>
             </div>
         </div>
