@@ -282,6 +282,7 @@ min-height: 100vh;"
     const sections = document.querySelectorAll('.section');
     let currentSection = 0;
 
+    // Event listener for "next" buttons
     document.querySelectorAll('.next-btn').forEach(button => {
         button.addEventListener('click', () => {
             if (currentSection < sections.length - 1) {
@@ -293,6 +294,7 @@ min-height: 100vh;"
         });
     });
 
+    // Event listener for "prev" buttons
     document.querySelectorAll('.prev-btn').forEach(button => {
         button.addEventListener('click', () => {
             if (currentSection > 0) {
@@ -300,6 +302,15 @@ min-height: 100vh;"
                 currentSection--;
                 sections[currentSection].classList.remove('d-none');
             }
+        });
+    });
+
+    // Event listener for the "NY BESTILLING" button (reset to section-1)
+    document.querySelectorAll('.btn-custom2').forEach(button => {
+        button.addEventListener('click', () => {
+            sections[currentSection].classList.add('d-none');  // Hide current section
+            currentSection = 0;  // Reset to the first section
+            sections[currentSection].classList.remove('d-none');  // Show the first section
         });
     });
 
