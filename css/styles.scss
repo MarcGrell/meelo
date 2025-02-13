@@ -11,8 +11,8 @@ $link-decoration: none;
 
 // 4. Include any default map overrides here
 $custom-colors: (
-	"farve": #dd9e25,
-
+        "farve": #dd9e25,
+        "orange": #f19f01,
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
@@ -20,4 +20,35 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @import "bootstrapComponents";
 
 // 5. Du kan lave styling her...
+.btn-custom {
+  width: 75%;
+}
 
+.btn-custom2 {
+  width: 50%;
+}
+
+@media (min-width: 768px) {
+  .btn-custom {
+    width: 50%;
+  }
+}
+
+@media (min-width: 992px) {
+  .btn-custom {
+    width: 50%;
+  }
+}
+
+/* Standard stil for billeder */
+.kage-valg img {
+  transition: 0.3s ease-in-out;
+  border: 3px solid transparent; /* Ingen kant som standard */
+  border-radius: 10px;
+}
+
+/* Når radio-knappen er valgt, får billedet en kant */
+.kage-valg input:checked + img {
+  border: 3px solid #ff8800; /* Orange kant når valgt */
+  box-shadow: 0 0 10px rgba(255, 136, 0, 0.5); /* Blød skygge */
+}
