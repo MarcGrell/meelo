@@ -13,6 +13,7 @@ require "settings/init.php";
     <meta name="copyright" content="Information om copyright">
 
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/30d6e0b537.js" crossorigin="anonymous"></script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -58,9 +59,100 @@ min-height: 100vh;"
     </div>
 </div>
 
+<!-- Choose cake type -->
+<div class="container section d-none" id="section-3">
+    <div class="row justify-content-center align-items-center px-5">
+
+        <div>
+            <h1 class="mb-5 mt-5 text-center">Vælg din kagetype;</h1>
+        </div>
+
+
+        <div class="stepprocessbar">
+            <div class="steps-horizontal">
+                <div class="step-horizontal complete">
+                    <div class="step-icon">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <div class="step-title">Afhentning</div>
+                </div>
+                <div class="step-horizontal active">
+                    <div class="step-icon">
+                        <i class="fa-solid fa-circle-natch"></i>
+                    </div>
+                    <div class="step-title">Kagetype</div>
+                </div>
+                <div class="step-horizontal">
+                    <div class="step-icon">
+                        <i class="fa-solid fa-circle-natch"></i>
+                    </div>
+                    <div class="step-title">Tilføjelser</div>
+                </div>
+                <div class="step-horizontal">
+                    <div class="step-icon">
+                        <i class="fa-solid fa-circle-natch"></i>
+                    </div>
+                    <div class="step-title">Oplysninger</div>
+                </div>
+                <div class="step-horizontal">
+                    <div class="step-icon">
+                        <i class="fa-solid fa-circle-natch"></i>
+                    </div>
+                    <div class="step-title">Gennemse</div>
+                </div>
+                <div class="step-horizontal">
+                    <div class="step-icon">
+                        <i class="fa-solid fa-circle-natch"></i>
+                    </div>
+                    <div class="step-title">Bekræftelse</div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-12 mb-4 col-md-4">
+            <h5 class="text-start">Kagemand</h5>
+            <label class="form-check-label w-100 kage-valg">
+                <input type="radio" name="kagetype" value="kagemand" class="form-check-input d-none">
+                <div class="d-flex justify-content-center">
+                    <img src="images/vandbakkelse.webp" alt="Kagemand" class="img-fluid w-100 kage-billede">
+                </div>
+            </label>
+        </div>
+
+        <div class="col-12 mb-4 col-md-4">
+            <h5 class="text-start">Kagekvinde</h5>
+            <label class="form-check-label w-100 kage-valg">
+                <input type="radio" name="kagetype" value="kagedame" class="form-check-input d-none">
+                <div class="d-flex justify-content-center">
+                    <img src="images/Hindbærsnitte%20(1).webp" alt="Kagedame" class="img-fluid w-100 kage-billede">
+                </div>
+            </label>
+        </div>
+
+        <div class="col-12 mb-4 col-md-4">
+            <h5 class="text-start">Kageperson</h5>
+            <label class="form-check-label w-100 kage-valg">
+                <input type="radio" name="kagetype" value="kageperson" class="form-check-input d-none">
+                <div class="d-flex justify-content-center">
+                    <img src="images/tebolle.webp" alt="Kageperson" class="img-fluid w-100 kage-billede">
+                </div>
+            </label>
+        </div>
+
+        <div class="d-flex justify-content-center align-items-center flex-column pb-5 gap-2 mt-5">
+            <button type="button" class="btn btn-primary rounded-3 text-white p-3 px-4 next-btn">VIDERE <i class="fa-sharp fa-solid fa-arrow-right"></i></button>
+            <button type="button" class="btn btn-white rounded-3 text-decoration-underline prev-btn"><i class="fa-sharp fa-solid fa-arrow-left"></i> TILBAGE</button>
+        </div>
+
+    </div>
+</div>
+
+
+
 <!-- Cake Designer -->
 <div class="container d-flex justify-content-center align-items-center min-vh-100 text-center section d-none"
-     id="section-3">
+     id="section-4">
     <div class="row justify-content-center">
         <div class="col-12 text-center mt-4">
             <img src="https://placehold.co/100x50@2x.png" alt="Logo" class="logo">
@@ -113,7 +205,7 @@ min-height: 100vh;"
 </div>
 
 <!-- Customer Info -->
-<div class="container section d-none" id="section-4">
+<div class="container section d-none" id="section-5">
     <div class="row justify-content-center">
         <div class="col-12 text-center mt-4">
             <img src="https://placehold.co/100x50@2x.png" alt="Logo" class="logo">
@@ -152,7 +244,7 @@ min-height: 100vh;"
 </div>
 
 <!-- Confirmation Page -->
-<div class="container section d-none" id="section-5">
+<div class="container section d-none" id="section-6">
     <div class="row justify-content-center">
         <div class="col-12 text-center mt-4">
             <h1>Bekræft dine oplysninger</h1>
@@ -166,7 +258,7 @@ min-height: 100vh;"
 </div>
 
 <!-- Final Confirmation Page -->
-<div class="container d-flex flex-column section d-none" id="section-6"
+<div class="container d-flex flex-column section d-none" id="section-7"
      style="background-image: url('images/backgroundLight.png');
              background-size: cover;
              background-repeat: no-repeat;
