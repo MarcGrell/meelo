@@ -44,21 +44,23 @@ require "settings/init.php";
 
 
         <div class="col-12">
-            <div>
                 <h5 class="text-start">Kagekvinde</h5>
+            <label class="form-check-label w-100 kage-valg">
+                <input type="radio" name="kagetype" value="kagedame" class="form-check-input d-none">
+            <div class="d-flex justify-content-center">
+                <img src="images/Hindbærsnitte%20(1).webp" alt="Kagedame" class="img-fluid w-100 kage-billede">
             </div>
-            <div class="mb-5 d-flex justify-content-center">
-                <img src="images/Hindbærsnitte%20(1).webp" alt="" class="img-fluid w-100">
-            </div>
+            </label>
         </div>
 
         <div class="col-12">
-            <div>
                 <h5 class="text-start">Kageperson</h5>
-            </div>
+            <label class="form-check-label w-100 kage-valg">
+                <input type="radio" name="kagetype" value="kageperson" class="form-check-input d-none">
             <div class="mb-5 d-flex justify-content-center">
-                <img src="images/tebolle.webp" alt="" class="img-fluid w-100">
+                <img src="images/tebolle.webp" alt="Kageperson" class="img-fluid w-100 kage-billede">
             </div>
+            </label>
         </div>
 
         <div class="d-flex justify-content-center align-items-center flex-column pb-5 gap-2">
