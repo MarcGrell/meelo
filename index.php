@@ -51,9 +51,9 @@ min-height: 100vh;"
                 <input type="datetime-local" class="form-control" id="datetimeInput">
             </div>
 
-            <div class="d-flex flex-column align-items-center">
-                <button type="button" class="btn btn-primary w-100 mb-2 next-btn">Videre →</button>
-                <button type="button" class="btn btn-secondary w-100 prev-btn">← Tilbage</button>
+            <div class="d-flex justify-content-center align-items-center flex-column pb-5 gap-2 mt-5">
+                <button type="button" class="btn btn-primary rounded-3 text-white p-3 px-4 next-btn">VIDERE <i class="fa-sharp fa-solid fa-arrow-right"></i></button>
+                <button type="button" class="btn btn-white rounded-3 text-decoration-underline prev-btn"><i class="fa-sharp fa-solid fa-arrow-left"></i> TILBAGE</button>
             </div>
         </form>
     </div>
@@ -149,8 +149,8 @@ min-height: 100vh;"
 </div>
 
 
-
 <!-- Cake Designer -->
+
 <div class="container d-flex justify-content-center align-items-center min-vh-100 text-center section d-none"
      id="section-4">
     <div class="row justify-content-center">
@@ -196,9 +196,9 @@ min-height: 100vh;"
                 <textarea class="form-control" placeholder="Enter your text here" rows="3" name="cakeNotes"></textarea>
             </div>
 
-            <div class="d-flex flex-column align-items-center">
-                <button type="button" class="btn btn-primary w-100 mb-2 next-btn">Videre →</button>
-                <button type="button" class="btn btn-secondary w-100 prev-btn">← Tilbage</button>
+            <div class="d-flex justify-content-center align-items-center flex-column pb-5 gap-2 mt-5">
+                <button type="button" class="btn btn-primary rounded-3 text-white p-3 px-4 next-btn">VIDERE <i class="fa-sharp fa-solid fa-arrow-right"></i></button>
+                <button type="button" class="btn btn-white rounded-3 text-decoration-underline prev-btn"><i class="fa-sharp fa-solid fa-arrow-left"></i> TILBAGE</button>
             </div>
         </form>
     </div>
@@ -234,9 +234,9 @@ min-height: 100vh;"
                     <textarea class="form-control" id="notes" name="notes"
                               placeholder="Har du noget at tilføje?"></textarea>
                 </div>
-                <div class="d-flex flex-column align-items-center">
-                    <button type="button" class="btn btn-primary w-100 mb-2 next-btn">Videre →</button>
-                    <button type="button" class="btn btn-secondary w-100 prev-btn">← Tilbage</button>
+                <div class="d-flex justify-content-center align-items-center flex-column pb-5 gap-2 mt-5">
+                    <button type="button" class="btn btn-primary rounded-3 text-white p-3 px-4 next-btn">VIDERE <i class="fa-sharp fa-solid fa-arrow-right"></i></button>
+                    <button type="button" class="btn btn-white rounded-3 text-decoration-underline prev-btn"><i class="fa-sharp fa-solid fa-arrow-left"></i> TILBAGE</button>
                 </div>
             </form>
         </div>
@@ -249,9 +249,9 @@ min-height: 100vh;"
         <div class="col-12 text-center mt-4">
             <h1>Bekræft dine oplysninger</h1>
             <div id="confirmationDetails" class="mt-4 text-start"></div>
-            <div class="d-flex flex-column align-items-center mt-3">
-                <button type="button" class="btn btn-success w-100 mb-2 next-btn">Bekræft og Send</button>
-                <button type="button" class="btn btn-secondary w-100 prev-btn">← Tilbage</button>
+            <div class="d-flex justify-content-center align-items-center flex-column pb-5 gap-2 mt-5">
+                <button type="button" class="btn btn-primary rounded-3 text-white p-3 px-4 next-btn">VIDERE <i class="fa-sharp fa-solid fa-arrow-right"></i></button>
+                <button type="button" class="btn btn-white rounded-3 text-decoration-underline prev-btn"><i class="fa-sharp fa-solid fa-arrow-left"></i> TILBAGE</button>
             </div>
         </div>
     </div>
