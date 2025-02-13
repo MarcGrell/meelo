@@ -6,7 +6,7 @@ require "settings/init.php";
 <head>
     <meta charset="utf-8">
 
-    <title>Hansens bageri</title>
+    <title>Hansens Bageri</title>
 
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
@@ -16,6 +16,8 @@ require "settings/init.php";
     <script src="https://kit.fontawesome.com/30d6e0b537.js" crossorigin="anonymous"></script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" type="image/x-icon" href="images/croissantFavicon.png">
 
 </head>
 
