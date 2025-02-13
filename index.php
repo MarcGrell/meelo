@@ -40,7 +40,7 @@ min-height: 100vh;"
 <div class="container d-flex justify-content-center align-items-center min-vh-100 text-center section d-none" id="section-2">
     <div class="row justify-content-center">
         <div class="col-12 text-center mt-4">
-            <img src="https://placehold.co/100x50@2x.png" alt="Logo" class="logo">
+            <img src="images/croissantLOGO.png" alt="Logo" class="logo w-25">
         </div>
 
         <h1 class="mt-4">Hvornår vil du hente din kage?</h1>
@@ -155,7 +155,7 @@ min-height: 100vh;"
      id="section-4">
     <div class="row justify-content-center">
         <div class="col-12 text-center mt-4">
-            <img src="https://placehold.co/100x50@2x.png" alt="Logo" class="logo">
+            <img src="images/croissantLOGO.png" alt="Logo" class="logo w-25">
         </div>
         <h1 class="mt-4">Design din kage</h1>
         <form id="cakeForm" class="mt-4">
@@ -208,7 +208,7 @@ min-height: 100vh;"
 <div class="container section d-none" id="section-5">
     <div class="row justify-content-center">
         <div class="col-12 text-center mt-4">
-            <img src="https://placehold.co/100x50@2x.png" alt="Logo" class="logo">
+            <img src="images/croissantLOGO.png" alt="Logo" class="logo w-25">
         </div>
         <div class="col-md-6 mt-4">
             <h1 class="text-center mb-4">Dine oplysninger</h1>
