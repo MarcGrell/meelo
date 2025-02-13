@@ -3,6 +3,7 @@
 
 // 2. Include any default variable overrides here
 $link-decoration: none;
+$primary: #f19f01;
 
 
 // 3. Include remainder of required Bootstrap stylesheets
@@ -11,7 +12,7 @@ $link-decoration: none;
 
 // 4. Include any default map overrides here
 $custom-colors: (
-        "primary": #f19f01,
+
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
