@@ -21,7 +21,6 @@ require "settings/init.php";
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://kit.fontawesome.com/30d6e0b537.js" crossorigin="anonymous"></script>
 </head>
-
 <body>
 
 
@@ -29,7 +28,7 @@ require "settings/init.php";
     <div class="row justify-content-center align-items-center px-5">
 
         <div>
-            <h1 class="mb-5 text-center">Vælg din kagetype;</h1>
+            <h1 class="mb-5 mt-5 text-center">Vælg din kagetype;</h1>
         </div>
 
         <div class="col-12 mb-4">
@@ -42,8 +41,7 @@ require "settings/init.php";
             </label>
         </div>
 
-
-        <div class="col-12">
+        <div class="col-12 mb-4">
                 <h5 class="text-start">Kagekvinde</h5>
             <label class="form-check-label w-100 kage-valg">
                 <input type="radio" name="kagetype" value="kagedame" class="form-check-input d-none">
@@ -53,7 +51,7 @@ require "settings/init.php";
             </label>
         </div>
 
-        <div class="col-12">
+        <div class="col-12 mb-4">
                 <h5 class="text-start">Kageperson</h5>
             <label class="form-check-label w-100 kage-valg">
                 <input type="radio" name="kagetype" value="kageperson" class="form-check-input d-none">
@@ -70,9 +68,6 @@ require "settings/init.php";
 
     </div>
 </div>
-
-
-
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
