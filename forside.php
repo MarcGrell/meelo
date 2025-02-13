@@ -30,7 +30,7 @@ require "settings/init.php";
 
 
 <div class="container-fluid d-flex justify-content-center align-items-center" style="height: 100vh;">
-    <button class="btn-custom py-5 btn btn-orange rounded-5 fs-3">NY BESTILLING</button>
+    <button class="btn-custom py-5 btn btn-primary rounded-5 fs-3">NY BESTILLING</button>
 </div>
 
 
