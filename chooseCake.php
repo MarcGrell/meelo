@@ -33,11 +33,11 @@ require "settings/init.php";
         </div>
 
         <div class="col-12 mb-4">
+            <h5 class="text-start">Kagemand</h5>
             <label class="form-check-label w-100 kage-valg">
-                <input type="radio" name="kagetype" value="kagemand" class="form-check-input d-none kage-valg img kage-valg input:checked + img">
-                <h5 class="text-start">Kagemand</h5>
+                <input type="radio" name="kagetype" value="kagemand" class="form-check-input d-none">
                 <div class="d-flex justify-content-center">
-                    <img src="images/vandbakkelse.webp" alt="" class="img-fluid w-100">
+                    <img src="images/vandbakkelse.webp" alt="Kagemand" class="img-fluid w-100 kage-billede">
                 </div>
             </label>
         </div>

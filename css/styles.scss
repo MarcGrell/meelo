@@ -40,15 +40,14 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
   }
 }
 
-/* Standard stil for billeder */
-.kage-valg img {
-  transition: 0.3s ease-in-out;
-  border: 3px solid transparent; /* Ingen kant som standard */
-  border-radius: 10px;
+/* Standardbillede uden kant */
+.kage-billede {
+  transition: border 0.3s ease, transform 0.3s ease;
 }
 
-/* Når radio-knappen er valgt, får billedet en kant */
-.kage-valg input:checked + img {
-  border: 3px solid #ff8800; /* Orange kant når valgt */
-  box-shadow: 0 0 10px rgba(255, 136, 0, 0.5); /* Blød skygge */
+/* Når radio-knappen er valgt, vis en orange kant om billedet */
+input[type="radio"]:checked + div img {
+  border: 4px solid #f19f01; /* Orange kant */
+  border-radius: 10px; /* Afrundede kanter */
+  transform: scale(1.05); /* Lidt forstørrelse for effekt */
 }
