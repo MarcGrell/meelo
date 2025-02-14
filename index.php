@@ -105,41 +105,35 @@ min-height: 100vh;"
 
         <div class="stepprocessbar">
             <div class="steps-horizontal">
-                <div class="step-horizontal complete">
+                <div class="step-horizontal active">
+                    <div class="step-icon">
+                        <i class="fa-regular fa-calendar-days"></i>
+                    </div>
+                </div>
+                <div class="step-horizontal">
+                    <div class="step-icon">
+                        <i class="fa-solid fa-person-half-dress"></i>
+                    </div>
+                </div>
+                <div class="step-horizontal">
+                    <div class="step-icon">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+                <div class="step-horizontal">
+                    <div class="step-icon">
+                        <i class="fa-solid fa-lightbulb"></i>
+                    </div>
+                </div>
+                <div class="step-horizontal">
+                    <div class="step-icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+                <div class="step-horizontal">
                     <div class="step-icon">
                         <i class="fa-solid fa-check"></i>
                     </div>
-                    <div class="step-title">Afhentning</div>
-                </div>
-                <div class="step-horizontal active">
-                    <div class="step-icon">
-                        <i class="fa-solid fa-circle-natch"></i>
-                    </div>
-                    <div class="step-title">Kagetype</div>
-                </div>
-                <div class="step-horizontal">
-                    <div class="step-icon">
-                        <i class="fa-solid fa-circle-natch"></i>
-                    </div>
-                    <div class="step-title">Tilføjelser</div>
-                </div>
-                <div class="step-horizontal">
-                    <div class="step-icon">
-                        <i class="fa-solid fa-circle-natch"></i>
-                    </div>
-                    <div class="step-title">Oplysninger</div>
-                </div>
-                <div class="step-horizontal">
-                    <div class="step-icon">
-                        <i class="fa-solid fa-circle-natch"></i>
-                    </div>
-                    <div class="step-title">Gennemse</div>
-                </div>
-                <div class="step-horizontal">
-                    <div class="step-icon">
-                        <i class="fa-solid fa-circle-natch"></i>
-                    </div>
-                    <div class="step-title">Bekræftelse</div>
                 </div>
             </div>
         </div>
@@ -196,41 +190,35 @@ min-height: 100vh;"
 
         <div class="stepprocessbar">
             <div class="steps-horizontal">
-                <div class="step-horizontal complete">
-                    <div class="step-icon">
-                        <i class="fa-solid fa-check"></i>
-                    </div>
-                    <div class="step-title">Afhentning</div>
-                </div>
-                <div class="step-horizontal complete">
-                    <div class="step-icon">
-                        <i class="fa-solid fa-check"></i>
-                    </div>
-                    <div class="step-title">Kagetype</div>
-                </div>
                 <div class="step-horizontal active">
                     <div class="step-icon">
-                        <i class="fa-solid fa-circle-natch"></i>
+                        <i class="fa-regular fa-calendar-days"></i>
                     </div>
-                    <div class="step-title">Tilføjelser</div>
                 </div>
                 <div class="step-horizontal">
                     <div class="step-icon">
-                        <i class="fa-solid fa-circle-natch"></i>
+                        <i class="fa-solid fa-person-half-dress"></i>
                     </div>
-                    <div class="step-title">Oplysninger</div>
                 </div>
                 <div class="step-horizontal">
                     <div class="step-icon">
-                        <i class="fa-solid fa-circle-natch"></i>
+                        <i class="fa-solid fa-plus"></i>
                     </div>
-                    <div class="step-title">Gennemse</div>
                 </div>
                 <div class="step-horizontal">
                     <div class="step-icon">
-                        <i class="fa-solid fa-circle-natch"></i>
+                        <i class="fa-solid fa-lightbulb"></i>
                     </div>
-                    <div class="step-title">Bekræftelse</div>
+                </div>
+                <div class="step-horizontal">
+                    <div class="step-icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+                <div class="step-horizontal">
+                    <div class="step-icon">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
                 </div>
             </div>
         </div>
@@ -303,46 +291,40 @@ min-height: 100vh;"
             <h1 class="text-center mb-4">Dine oplysninger</h1>
         </div>
 <div>
-            <div class="stepprocessbar">
-                <div class="steps-horizontal">
-                    <div class="step-horizontal complete">
-                        <div class="step-icon">
-                            <i class="fa-solid fa-check"></i>
-                        </div>
-                        <div class="step-title">Afhentning</div>
-                    </div>
-                    <div class="step-horizontal complete">
-                        <div class="step-icon">
-                            <i class="fa-solid fa-check"></i>
-                        </div>
-                        <div class="step-title">Kagetype</div>
-                    </div>
-                    <div class="step-horizontal complete">
-                        <div class="step-icon">
-                            <i class="fa-solid fa-check"></i>
-                        </div>
-                        <div class="step-title">Tilføjelser</div>
-                    </div>
-                    <div class="step-horizontal active">
-                        <div class="step-icon">
-                            <i class="fa-solid fa-circle-natch"></i>
-                        </div>
-                        <div class="step-title">Oplysninger</div>
-                    </div>
-                    <div class="step-horizontal">
-                        <div class="step-icon">
-                            <i class="fa-solid fa-circle-natch"></i>
-                        </div>
-                        <div class="step-title">Gennemse</div>
-                    </div>
-                    <div class="step-horizontal">
-                        <div class="step-icon">
-                            <i class="fa-solid fa-circle-natch"></i>
-                        </div>
-                        <div class="step-title">Bekræftelse</div>
-                    </div>
+    <div class="stepprocessbar">
+        <div class="steps-horizontal">
+            <div class="step-horizontal active">
+                <div class="step-icon">
+                    <i class="fa-regular fa-calendar-days"></i>
                 </div>
             </div>
+            <div class="step-horizontal">
+                <div class="step-icon">
+                    <i class="fa-solid fa-person-half-dress"></i>
+                </div>
+            </div>
+            <div class="step-horizontal">
+                <div class="step-icon">
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+            </div>
+            <div class="step-horizontal">
+                <div class="step-icon">
+                    <i class="fa-solid fa-lightbulb"></i>
+                </div>
+            </div>
+            <div class="step-horizontal">
+                <div class="step-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="step-horizontal">
+                <div class="step-icon">
+                    <i class="fa-solid fa-check"></i>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
             <form id="customerForm">
@@ -386,41 +368,35 @@ min-height: 100vh;"
 
             <div class="stepprocessbar">
                 <div class="steps-horizontal">
-                    <div class="step-horizontal complete">
-                        <div class="step-icon">
-                            <i class="fa-solid fa-check"></i>
-                        </div>
-                        <div class="step-title">Afhentning</div>
-                    </div>
-                    <div class="step-horizontal complete">
-                        <div class="step-icon">
-                            <i class="fa-solid fa-check"></i>
-                        </div>
-                        <div class="step-title">Kagetype</div>
-                    </div>
-                    <div class="step-horizontal complete">
-                        <div class="step-icon">
-                            <i class="fa-solid fa-check"></i>
-                        </div>
-                        <div class="step-title">Tilføjelser</div>
-                    </div>
-                    <div class="step-horizontal complete">
-                        <div class="step-icon">
-                            <i class="fa-solid fa-check"></i>
-                        </div>
-                        <div class="step-title">Oplysninger</div>
-                    </div>
                     <div class="step-horizontal active">
                         <div class="step-icon">
-                            <i class="fa-solid fa-circle-natch"></i>
+                            <i class="fa-regular fa-calendar-days"></i>
                         </div>
-                        <div class="step-title">Gennemse</div>
                     </div>
                     <div class="step-horizontal">
                         <div class="step-icon">
-                            <i class="fa-solid fa-circle-natch"></i>
+                            <i class="fa-solid fa-person-half-dress"></i>
                         </div>
-                        <div class="step-title">Bekræftelse</div>
+                    </div>
+                    <div class="step-horizontal">
+                        <div class="step-icon">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="step-horizontal">
+                        <div class="step-icon">
+                            <i class="fa-solid fa-lightbulb"></i>
+                        </div>
+                    </div>
+                    <div class="step-horizontal">
+                        <div class="step-icon">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                    </div>
+                    <div class="step-horizontal">
+                        <div class="step-icon">
+                            <i class="fa-solid fa-check"></i>
+                        </div>
                     </div>
                 </div>
             </div>
