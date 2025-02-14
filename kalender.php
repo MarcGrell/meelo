@@ -1,6 +1,7 @@
 <?php
 require "settings/init.php";
 ?>
+
 <!DOCTYPE html>
 <html lang="da">
 <head>
@@ -29,6 +30,10 @@ require "settings/init.php";
 </head>
 
 <body>
+
+<?php
+include ("includes/navbar.php");
+?>
 
 <!--CARDS CONTAINER!-->
 <div class="container">
