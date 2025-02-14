@@ -225,7 +225,7 @@ min-height: 100vh;"
         <form id="cakeForm" class="mt-4">
             <div class="mb-3">
                 <select class="form-select mb-2" aria-label="Dropdown 1" name="option1">
-                    <option selected>Kage variant</option>
+                    <option selected>Kagevariant</option>
                     <option value="Option 1">Brunsviger</option>
                     <option value="Option 2">Hindbærsnitte</option>
                     <option value="Option 3">Vandbakkelse</option>
@@ -236,15 +236,15 @@ min-height: 100vh;"
                 </select>
                 <select class="form-select mb-2" aria-label="Dropdown 2" name="option2">
                     <option selected>Slik</option>
-                    <option value="Option 1">Click Mix</option>
-                    <option value="Option 2">Matador Mix</option>
+                    <option value="Option 1">Click-Mix</option>
+                    <option value="Option 2">Matador-Mix</option>
                     <option value="Option 3">M&M's</option>
                 </select>
                 <select class="form-select mb-2" aria-label="Dropdown 3" name="option3">
                     <option selected>Glasur og/eller flødeskum</option>
                     <option value="Option 1">Glasur</option>
                     <option value="Option 2">Flødeskum</option>
-                    <option value="Option 3">Begge dele</option>
+                    <option value="Option 3">Glasur og flødeskum</option>
                     <option value="Option 4">Intet</option>
                 </select>
                 <select class="form-select mb-2" aria-label="Dropdown 4" name="option4">
@@ -269,7 +269,7 @@ min-height: 100vh;"
             </div>
 
             <div class="mb-3">
-                <textarea class="form-control" placeholder="Tekst på marcipanbånd (maks 50 tegn)" rows="3" name="cakeNotes"></textarea>
+                <textarea class="form-control" placeholder="Tekst på marcipanbånd (maks 50 tegn):" rows="3" name="cakeNotes"></textarea>
             </div>
 
             <div class="d-flex justify-content-center align-items-center flex-column pb-5 gap-2 mt-5">
