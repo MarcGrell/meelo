@@ -98,13 +98,14 @@ min-height: 100vh;"
 <!-- Choose cake type -->
 <div class="container section d-none" id="section-3">
     <div class="row justify-content-center align-items-center">
-
-        <div>
-            <h1 class="mb-5 mt-5 text-center">Vælg din kagetype;</h1>
+        <div class="col-12 text-center mt-4">
+            <img src="images/croissantLOGO.png" alt="Logo" class="logo w-25">
         </div>
-
+        <div>
+            <h1 class="mt-4 text-center">Vælg din kagetype</h1>
+        </div>
         <div class="stepprocessbar">
-            <div class="steps-horizontal">
+            <div class="steps-horizontal mb-4">
                 <div class="step-horizontal complete">
                     <div class="step-icon">
                         <i class="fa-regular fa-calendar-days"></i>
@@ -137,8 +138,6 @@ min-height: 100vh;"
                 </div>
             </div>
         </div>
-
-
         <div class="col-12 mb-4 col-md-4 px-5">
             <h5 class="text-start">Kagemand</h5>
             <label class="form-check-label w-100 kage-valg">
@@ -186,7 +185,7 @@ min-height: 100vh;"
         <div class="col-12 text-center mt-4">
             <img src="images/croissantLOGO.png" alt="Logo" class="logo w-25">
         </div>
-        <h1 class="mt-4">Design din kage</h1>
+        <h1 class="mt-4 text-center">Design din kage</h1>
 
         <div class="stepprocessbar">
             <div class="steps-horizontal">
@@ -292,7 +291,7 @@ min-height: 100vh;"
         </div>
 <div>
     <div class="stepprocessbar">
-        <div class="steps-horizontal">
+        <div class="steps-horizontal mb-4">
             <div class="step-horizontal complete">
                 <div class="step-icon">
                     <i class="fa-regular fa-calendar-days"></i>
@@ -364,10 +363,10 @@ min-height: 100vh;"
             <img src="images/croissantLOGO.png" alt="Logo" class="logo w-25">
         </div>
         <div class="col-12 text-center mt-4">
-            <h1>Bekræft dine oplysninger</h1>
+            <h1>Bekræft oplysninger</h1>
 
             <div class="stepprocessbar">
-                <div class="steps-horizontal">
+                <div class="steps-horizontal mb-4">
                     <div class="step-horizontal complete">
                         <div class="step-icon">
                             <i class="fa-regular fa-calendar-days"></i>
