@@ -27,15 +27,15 @@
             <img src="images/croissantLOGO_50.png" alt="logo" class="logoNavbar">
         </a>
 
-        <div class="container w-50 flex justify-content-center align-items-center">
+        <div class="container w-50 flex">
             <div class="row justify-content-space-between">
-                <div class="col">
+                <div class="col justify-content-center">
                     <button type="button" class="left btn bg-body-tertiary"><i class="fa-solid fa-arrow-left"></i></button>
                 </div>
                 <div class="col">
                     <div class="date text-center">I DAG</div>
                 </div>
-                <div class="col">
+                <div class="col justify-content-center">
                     <button type="button" class="right btn bg-body-tertiary"><i class="fa-solid fa-arrow-right"></i></button>
                 </div>
             </div>
