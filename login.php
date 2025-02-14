@@ -21,16 +21,24 @@ require "settings/init.php";
 
 </head>
 
-<body>
-
-
-
-
-
-
-
-
-
+<body class="d-flex flex-column vh-100">
+<div class="flex-grow-1 d-flex justify-content-center align-items-center">
+    <div class="login-container text-center w-25">
+        <div class="input-group mb-2">
+            <span class="input-group-text border-primary bg-white"><i class="fa-solid fa-user text-primary"></i></span>
+            <input type="text" class="form-control border-primary text-primary" placeholder="USERNAME">
+        </div>
+        <div class="input-group mb-2">
+            <span class="input-group-text border-primary bg-white"><i class="fa-solid fa-lock text-primary"></i></span>
+            <input type="password" class="form-control border-primary text-primary" placeholder="PASSWORD">
+        </div>
+        <button href="kalender.php" class="btn btn-primary text-white w-100">LOGIN</button>
+        <div class="mt-2 text-end">
+            <a href="#" class="text-primary">Forgot password?</a>
+        </div>
+    </div>
+</div>
+<div class="text-center pb-3">POWERED BY <img src="images/LogoFinal.png" alt="Logo" width="30"></div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
