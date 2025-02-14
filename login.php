@@ -25,16 +25,16 @@ require "settings/init.php";
 
 <div class="container d-flex flex-column vh-100">
 <div class="flex-grow-1 d-flex justify-content-center align-items-center">
-    <div class="login-container text-center w-75">
-        <div class="input-group mb-2">
+    <div class="login-container text-center col-10 col-md-6 col-lg-3">
+        <div class="input-group mb-3">
             <span class="input-group-text border-primary bg-white"><i class="fa-solid fa-user text-primary"></i></span>
             <input type="text" class="form-control border-primary text-primary" placeholder="USERNAME">
         </div>
-        <div class="input-group mb-2">
+        <div class="input-group">
             <span class="input-group-text border-primary bg-white"><i class="fa-solid fa-lock text-primary"></i></span>
             <input type="password" class="form-control border-primary text-primary" placeholder="PASSWORD">
         </div>
-        <button href="kalender.php" class="btn btn-primary text-white w-100">LOGIN</button>
+        <button href="kalender.php" class="btn btn-primary text-white w-100 mt-4">LOGIN</button>
         <div class="mt-2 text-end">
             <a class="text-primary">Forgot password?</a>
         </div>
