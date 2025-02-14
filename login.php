@@ -25,7 +25,7 @@ require "settings/init.php";
 
 <div class="container d-flex flex-column vh-100">
 <div class="flex-grow-1 d-flex justify-content-center align-items-center">
-    <div class="login-container text-center w-25">
+    <div class="login-container text-center w-75">
         <div class="input-group mb-2">
             <span class="input-group-text border-primary bg-white"><i class="fa-solid fa-user text-primary"></i></span>
             <input type="text" class="form-control border-primary text-primary" placeholder="USERNAME">
