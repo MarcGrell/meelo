@@ -35,6 +35,7 @@ require "settings/init.php";
 include ("includes/navbar.php");
 ?>
 
+
 <!--CARDS CONTAINER!-->
 <div class="container">
     <div class="row align-items-start" id="cardContainer">
