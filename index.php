@@ -260,11 +260,10 @@ min-height: 100vh;"
 </div>
 
 <!-- Final Confirmation Page -->
-<div class="container d-flex flex-column section d-none" id="section-7"
+<div class="container-fluid d-flex flex-column section d-none" id="section-7"
      style="background-image: url('images/backgroundLight.png');
              background-size: cover;
              background-repeat: no-repeat;
-             background-position: center;
              min-height: 100vh;">
 
     <div class="d-flex justify-content-center align-items-center">
