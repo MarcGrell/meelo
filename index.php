@@ -48,13 +48,13 @@ min-height: 100vh;"
 
         <div class="stepprocessbar">
             <div class="steps-horizontal">
-                <div class="step-horizontal complete">
+                <div class="step-horizontal active">
                     <div class="step-icon">
-                        <i class="fa-solid fa-check"></i>
+                        <i class="fa-solid fa-circle-natch"></i>
                     </div>
                     <div class="step-title">Afhentning</div>
                 </div>
-                <div class="step-horizontal active">
+                <div class="step-horizontal">
                     <div class="step-icon">
                         <i class="fa-solid fa-circle-natch"></i>
                     </div>
@@ -208,13 +208,13 @@ min-height: 100vh;"
                     </div>
                     <div class="step-title">Afhentning</div>
                 </div>
-                <div class="step-horizontal active">
+                <div class="step-horizontal complete">
                     <div class="step-icon">
-                        <i class="fa-solid fa-circle-natch"></i>
+                        <i class="fa-solid fa-check"></i>
                     </div>
                     <div class="step-title">Kagetype</div>
                 </div>
-                <div class="step-horizontal">
+                <div class="step-horizontal active">
                     <div class="step-icon">
                         <i class="fa-solid fa-circle-natch"></i>
                     </div>
@@ -244,39 +244,51 @@ min-height: 100vh;"
         <form id="cakeForm" class="mt-4">
             <div class="mb-3">
                 <select class="form-select mb-2" aria-label="Dropdown 1" name="option1">
-                    <option selected>Select option 1</option>
-                    <option value="Option 1">Option 1</option>
-                    <option value="Option 2">Option 2</option>
-                    <option value="Option 3">Option 3</option>
+                    <option selected>Kage variant</option>
+                    <option value="Option 1">Brunsviger</option>
+                    <option value="Option 2">Hindbærsnitte</option>
+                    <option value="Option 3">Vandbakkelse</option>
+                    <option value="Option 4">Kanelstang</option>
+                    <option value="Option 5">Wienerbrød</option>
+                    <option value="Option 6">Tebolle</option>
+                    <option value="Option 7">Chokoladekage</option>
                 </select>
                 <select class="form-select mb-2" aria-label="Dropdown 2" name="option2">
-                    <option selected>Select option 2</option>
-                    <option value="Option 1">Option 1</option>
-                    <option value="Option 2">Option 2</option>
-                    <option value="Option 3">Option 3</option>
+                    <option selected>Slik</option>
+                    <option value="Option 1">Click Mix</option>
+                    <option value="Option 2">Matador Mix</option>
+                    <option value="Option 3">M&M's</option>
                 </select>
                 <select class="form-select mb-2" aria-label="Dropdown 3" name="option3">
-                    <option selected>Select option 3</option>
-                    <option value="Option 1">Option 1</option>
-                    <option value="Option 2">Option 2</option>
-                    <option value="Option 3">Option 3</option>
+                    <option selected>Glasur og/eller flødeskum</option>
+                    <option value="Option 1">Glasur</option>
+                    <option value="Option 2">Flødeskum</option>
+                    <option value="Option 3">Begge dele</option>
+                    <option value="Option 4">Intet</option>
                 </select>
                 <select class="form-select mb-2" aria-label="Dropdown 4" name="option4">
-                    <option selected>Select option 4</option>
-                    <option value="Option 1">Option 1</option>
-                    <option value="Option 2">Option 2</option>
-                    <option value="Option 3">Option 3</option>
+                    <option selected>Hårtype</option>
+                    <option value="Option 1">Karamel, kort</option>
+                    <option value="Option 2">Karamel, mellem</option>
+                    <option value="Option 3">Karamel, langt</option>
+                    <option value="Option 4">Jordbær, kort</option>
+                    <option value="Option 5">Jordbær, mellem</option>
+                    <option value="Option 6">Jordbær, langt</option>
+                    <option value="Option 7">Lakrids, kort</option>
+                    <option value="Option 8">Lakrids, mellem</option>
+                    <option value="Option 9">Lakrids, langt</option>
                 </select>
                 <select class="form-select mb-2" aria-label="Dropdown 5" name="option5">
-                    <option selected>Select option 5</option>
-                    <option value="Option 1">Option 1</option>
-                    <option value="Option 2">Option 2</option>
-                    <option value="Option 3">Option 3</option>
+                    <option selected>Antal personer</option>
+                    <option value="Option 1">10-15</option>
+                    <option value="Option 2">15-20</option>
+                    <option value="Option 3">20-25</option>
+                    <option value="Option 4">25-30</option>
                 </select>
             </div>
 
             <div class="mb-3">
-                <textarea class="form-control" placeholder="Enter your text here" rows="3" name="cakeNotes"></textarea>
+                <textarea class="form-control" placeholder="Tekst på marcipanbånd (maks 50 tegn)" rows="3" name="cakeNotes"></textarea>
             </div>
 
             <div class="d-flex justify-content-center align-items-center flex-column pb-5 gap-2 mt-5">
@@ -304,19 +316,19 @@ min-height: 100vh;"
                         </div>
                         <div class="step-title">Afhentning</div>
                     </div>
-                    <div class="step-horizontal active">
+                    <div class="step-horizontal complete">
                         <div class="step-icon">
-                            <i class="fa-solid fa-circle-natch"></i>
+                            <i class="fa-solid fa-check"></i>
                         </div>
                         <div class="step-title">Kagetype</div>
                     </div>
-                    <div class="step-horizontal">
+                    <div class="step-horizontal complete">
                         <div class="step-icon">
-                            <i class="fa-solid fa-circle-natch"></i>
+                            <i class="fa-solid fa-check"></i>
                         </div>
                         <div class="step-title">Tilføjelser</div>
                     </div>
-                    <div class="step-horizontal">
+                    <div class="step-horizontal active">
                         <div class="step-icon">
                             <i class="fa-solid fa-circle-natch"></i>
                         </div>
@@ -385,25 +397,25 @@ min-height: 100vh;"
                         </div>
                         <div class="step-title">Afhentning</div>
                     </div>
-                    <div class="step-horizontal active">
+                    <div class="step-horizontal complete">
                         <div class="step-icon">
-                            <i class="fa-solid fa-circle-natch"></i>
+                            <i class="fa-solid fa-check"></i>
                         </div>
                         <div class="step-title">Kagetype</div>
                     </div>
-                    <div class="step-horizontal">
+                    <div class="step-horizontal complete">
                         <div class="step-icon">
-                            <i class="fa-solid fa-circle-natch"></i>
+                            <i class="fa-solid fa-check"></i>
                         </div>
                         <div class="step-title">Tilføjelser</div>
                     </div>
-                    <div class="step-horizontal">
+                    <div class="step-horizontal complete">
                         <div class="step-icon">
-                            <i class="fa-solid fa-circle-natch"></i>
+                            <i class="fa-solid fa-check"></i>
                         </div>
                         <div class="step-title">Oplysninger</div>
                     </div>
-                    <div class="step-horizontal">
+                    <div class="step-horizontal active">
                         <div class="step-icon">
                             <i class="fa-solid fa-circle-natch"></i>
                         </div>
