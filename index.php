@@ -97,7 +97,7 @@ min-height: 100vh;"
 
 <!-- Choose cake type -->
 <div class="container section d-none" id="section-3">
-    <div class="row justify-content-center align-items-center px-5">
+    <div class="row justify-content-center align-items-center">
 
         <div>
             <h1 class="mb-5 mt-5 text-center">Vælg din kagetype;</h1>
@@ -139,7 +139,7 @@ min-height: 100vh;"
         </div>
 
 
-        <div class="col-12 mb-4 col-md-4">
+        <div class="col-12 mb-4 col-md-4 px-5">
             <h5 class="text-start">Kagemand</h5>
             <label class="form-check-label w-100 kage-valg">
                 <input type="radio" name="kagetype" value="kagemand" class="form-check-input d-none">
@@ -149,7 +149,7 @@ min-height: 100vh;"
             </label>
         </div>
 
-        <div class="col-12 mb-4 col-md-4">
+        <div class="col-12 mb-4 col-md-4 px-5">
             <h5 class="text-start">Kagekvinde</h5>
             <label class="form-check-label w-100 kage-valg">
                 <input type="radio" name="kagetype" value="kagedame" class="form-check-input d-none">
@@ -159,7 +159,7 @@ min-height: 100vh;"
             </label>
         </div>
 
-        <div class="col-12 mb-4 col-md-4">
+        <div class="col-12 mb-4 col-md-4 px-5">
             <h5 class="text-start">Kageperson</h5>
             <label class="form-check-label w-100 kage-valg">
                 <input type="radio" name="kagetype" value="kageperson" class="form-check-input d-none">
