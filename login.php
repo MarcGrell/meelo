@@ -34,7 +34,7 @@ require "settings/init.php";
             <span class="input-group-text border-primary bg-white"><i class="fa-solid fa-lock text-primary"></i></span>
             <input type="password" class="form-control border-primary text-primary" placeholder="PASSWORD">
         </div>
-        <button href="kalender.php" class="btn btn-primary text-white w-100 mt-4">LOGIN</button>
+        <a href="kalender.php" class="btn btn-primary text-white w-100 mt-4">LOGIN</a>
         <div class="mt-2 text-end">
             <a class="text-primary">Forgot password?</a>
         </div>
