@@ -295,6 +295,7 @@ min-height: 100vh;"
         </div>
         <div class="col-md-6 mt-4">
             <h1 class="text-center mb-4">Dine oplysninger</h1>
+        </div>
 
             <div class="stepprocessbar">
                 <div class="steps-horizontal">
@@ -364,7 +365,6 @@ min-height: 100vh;"
                     <button type="button" class="btn btn-white rounded-3 text-decoration-underline prev-btn"><i class="fa-sharp fa-solid fa-arrow-left"></i> TILBAGE</button>
                 </div>
             </form>
-        </div>
     </div>
 </div>
 

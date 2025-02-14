@@ -128,12 +128,12 @@ input[type="radio"]:checked + div img {
 /* Mobilvenlig */
 @media (max-width: 600px) {
   .steps-horizontal {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    white-space: nowrap;
   }
   .step-horizontal {
-    flex: none;
-    width: 30%;
+    flex: 0 0 auto;
+    width: auto;
   }
 }
