@@ -48,13 +48,13 @@ min-height: 100vh;"
 
         <div class="stepprocessbar">
             <div class="steps-horizontal">
-                <div class="step-horizontal complete">
+                <div class="step-horizontal active">
                     <div class="step-icon">
-                        <i class="fa-solid fa-check"></i>
+                        <i class="fa-solid fa-circle-natch"></i>
                     </div>
                     <div class="step-title">Afhentning</div>
                 </div>
-                <div class="step-horizontal active">
+                <div class="step-horizontal">
                     <div class="step-icon">
                         <i class="fa-solid fa-circle-natch"></i>
                     </div>
@@ -208,13 +208,13 @@ min-height: 100vh;"
                     </div>
                     <div class="step-title">Afhentning</div>
                 </div>
-                <div class="step-horizontal active">
+                <div class="step-horizontal complete">
                     <div class="step-icon">
-                        <i class="fa-solid fa-circle-natch"></i>
+                        <i class="fa-solid fa-check"></i>
                     </div>
                     <div class="step-title">Kagetype</div>
                 </div>
-                <div class="step-horizontal">
+                <div class="step-horizontal active">
                     <div class="step-icon">
                         <i class="fa-solid fa-circle-natch"></i>
                     </div>
@@ -316,19 +316,19 @@ min-height: 100vh;"
                         </div>
                         <div class="step-title">Afhentning</div>
                     </div>
-                    <div class="step-horizontal active">
+                    <div class="step-horizontal complete">
                         <div class="step-icon">
-                            <i class="fa-solid fa-circle-natch"></i>
+                            <i class="fa-solid fa-check"></i>
                         </div>
                         <div class="step-title">Kagetype</div>
                     </div>
-                    <div class="step-horizontal">
+                    <div class="step-horizontal complete">
                         <div class="step-icon">
-                            <i class="fa-solid fa-circle-natch"></i>
+                            <i class="fa-solid fa-check"></i>
                         </div>
                         <div class="step-title">Tilføjelser</div>
                     </div>
-                    <div class="step-horizontal">
+                    <div class="step-horizontal active">
                         <div class="step-icon">
                             <i class="fa-solid fa-circle-natch"></i>
                         </div>
@@ -397,25 +397,25 @@ min-height: 100vh;"
                         </div>
                         <div class="step-title">Afhentning</div>
                     </div>
-                    <div class="step-horizontal active">
+                    <div class="step-horizontal complete">
                         <div class="step-icon">
-                            <i class="fa-solid fa-circle-natch"></i>
+                            <i class="fa-solid fa-check"></i>
                         </div>
                         <div class="step-title">Kagetype</div>
                     </div>
-                    <div class="step-horizontal">
+                    <div class="step-horizontal complete">
                         <div class="step-icon">
-                            <i class="fa-solid fa-circle-natch"></i>
+                            <i class="fa-solid fa-check"></i>
                         </div>
                         <div class="step-title">Tilføjelser</div>
                     </div>
-                    <div class="step-horizontal">
+                    <div class="step-horizontal complete">
                         <div class="step-icon">
-                            <i class="fa-solid fa-circle-natch"></i>
+                            <i class="fa-solid fa-check"></i>
                         </div>
                         <div class="step-title">Oplysninger</div>
                     </div>
-                    <div class="step-horizontal">
+                    <div class="step-horizontal active">
                         <div class="step-icon">
                             <i class="fa-solid fa-circle-natch"></i>
                         </div>
