@@ -473,6 +473,11 @@ min-height: 100vh;"
         const datetime = document.getElementById('datetimeInput').value;
         const options = [...document.querySelectorAll('#cakeForm select')].map(select => select.value);
         const cakeNotes = document.querySelector('textarea[name="cakeNotes"]').value;
+
+        // Get selected cake type from radio inputs
+        const selectedCakeType = document.querySelector('input[name="kagetype"]:checked');
+        const cakeTypeValue = selectedCakeType ? selectedCakeType.value : 'Ingen valgt';
+
         const customerDetails = {
             name: document.getElementById('name').value,
             company: document.getElementById('company').value,
@@ -482,15 +487,16 @@ min-height: 100vh;"
         };
 
         confirmationDetails.innerHTML = `
-                <p><strong>Dato og Tid:</strong> ${datetime}</p>
-                <p><strong>Valgte muligheder:</strong> ${options.join(', ')}</p>
-                <p><strong>Kagenotater:</strong> ${cakeNotes}</p>
-                <p><strong>Navn:</strong> ${customerDetails.name}</p>
-                <p><strong>Firma:</strong> ${customerDetails.company}</p>
-                <p><strong>Telefon:</strong> ${customerDetails.phone}</p>
-                <p><strong>Email:</strong> ${customerDetails.email}</p>
-                <p><strong>Bemærkninger:</strong> ${customerDetails.notes}</p>
-            `;
+        <p><strong>Dato og Tid:</strong> ${datetime}</p>
+        <p><strong>Valgte muligheder:</strong> ${options.join(', ')}</p>
+        <p><strong>Kagetype:</strong> ${cakeTypeValue}</p>
+        <p><strong>Kagenotater:</strong> ${cakeNotes}</p>
+        <p><strong>Navn:</strong> ${customerDetails.name}</p>
+        <p><strong>Firma:</strong> ${customerDetails.company}</p>
+        <p><strong>Telefon:</strong> ${customerDetails.phone}</p>
+        <p><strong>Email:</strong> ${customerDetails.email}</p>
+        <p><strong>Bemærkninger:</strong> ${customerDetails.notes}</p>
+    `;
     }
 </script>
 </body>
