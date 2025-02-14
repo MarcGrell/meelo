@@ -87,10 +87,10 @@ require "settings/init.php";
     // HER SKAL DATA FRA DATABASEN HENTES.....
     const cardData = [
         {name: "Lene Mikkelsen", description: "Kort beskrivelse af bestillingen."},
-        {name: "Emma MEELO", description: "Kort beskrivelse af bestillingen."},
+        {name: "Emma - MEELO", description: "Kort beskrivelse af bestillingen."},
         {name: "Mads Rasmussen", description: "Kort beskrivelse af bestillingen."},
-        {name: "Marc AAUA", description: "Kort beskrivelse af bestillingen."},
-        {name: "Karsten INSA TECH", description: "Kort beskrivelse af bestillingen."},
+        {name: "Marc - AAUA", description: "Kort beskrivelse af bestillingen."},
+        {name: "Karsten - INSA TECH", description: "Kort beskrivelse af bestillingen."},
         {name: "Glen Nielsen", description: "Kort beskrivelse af bestillingen."},
 
     ];
