@@ -44,8 +44,48 @@ min-height: 100vh;"
         <div class="col-12 text-center mt-4">
             <img src="images/croissantLOGO.png" alt="Logo" class="logo w-25">
         </div>
-
         <h1 class="mt-4">Hvornår vil du hente din kage?</h1>
+
+        <div class="stepprocessbar">
+            <div class="steps-horizontal">
+                <div class="step-horizontal complete">
+                    <div class="step-icon">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <div class="step-title">Afhentning</div>
+                </div>
+                <div class="step-horizontal active">
+                    <div class="step-icon">
+                        <i class="fa-solid fa-circle-natch"></i>
+                    </div>
+                    <div class="step-title">Kagetype</div>
+                </div>
+                <div class="step-horizontal">
+                    <div class="step-icon">
+                        <i class="fa-solid fa-circle-natch"></i>
+                    </div>
+                    <div class="step-title">Tilføjelser</div>
+                </div>
+                <div class="step-horizontal">
+                    <div class="step-icon">
+                        <i class="fa-solid fa-circle-natch"></i>
+                    </div>
+                    <div class="step-title">Oplysninger</div>
+                </div>
+                <div class="step-horizontal">
+                    <div class="step-icon">
+                        <i class="fa-solid fa-circle-natch"></i>
+                    </div>
+                    <div class="step-title">Gennemse</div>
+                </div>
+                <div class="step-horizontal">
+                    <div class="step-icon">
+                        <i class="fa-solid fa-circle-natch"></i>
+                    </div>
+                    <div class="step-title">Bekræftelse</div>
+                </div>
+            </div>
+        </div>
 
         <form id="datetimeForm" class="mt-3">
             <div class="mb-4">
@@ -68,7 +108,6 @@ min-height: 100vh;"
         <div>
             <h1 class="mb-5 mt-5 text-center">Vælg din kagetype;</h1>
         </div>
-
 
         <div class="stepprocessbar">
             <div class="steps-horizontal">
@@ -160,6 +199,48 @@ min-height: 100vh;"
             <img src="images/croissantLOGO.png" alt="Logo" class="logo w-25">
         </div>
         <h1 class="mt-4">Design din kage</h1>
+
+        <div class="stepprocessbar">
+            <div class="steps-horizontal">
+                <div class="step-horizontal complete">
+                    <div class="step-icon">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <div class="step-title">Afhentning</div>
+                </div>
+                <div class="step-horizontal active">
+                    <div class="step-icon">
+                        <i class="fa-solid fa-circle-natch"></i>
+                    </div>
+                    <div class="step-title">Kagetype</div>
+                </div>
+                <div class="step-horizontal">
+                    <div class="step-icon">
+                        <i class="fa-solid fa-circle-natch"></i>
+                    </div>
+                    <div class="step-title">Tilføjelser</div>
+                </div>
+                <div class="step-horizontal">
+                    <div class="step-icon">
+                        <i class="fa-solid fa-circle-natch"></i>
+                    </div>
+                    <div class="step-title">Oplysninger</div>
+                </div>
+                <div class="step-horizontal">
+                    <div class="step-icon">
+                        <i class="fa-solid fa-circle-natch"></i>
+                    </div>
+                    <div class="step-title">Gennemse</div>
+                </div>
+                <div class="step-horizontal">
+                    <div class="step-icon">
+                        <i class="fa-solid fa-circle-natch"></i>
+                    </div>
+                    <div class="step-title">Bekræftelse</div>
+                </div>
+            </div>
+        </div>
+
         <form id="cakeForm" class="mt-4">
             <div class="mb-3">
                 <select class="form-select mb-2" aria-label="Dropdown 1" name="option1">
@@ -214,6 +295,48 @@ min-height: 100vh;"
         </div>
         <div class="col-md-6 mt-4">
             <h1 class="text-center mb-4">Dine oplysninger</h1>
+
+            <div class="stepprocessbar">
+                <div class="steps-horizontal">
+                    <div class="step-horizontal complete">
+                        <div class="step-icon">
+                            <i class="fa-solid fa-check"></i>
+                        </div>
+                        <div class="step-title">Afhentning</div>
+                    </div>
+                    <div class="step-horizontal active">
+                        <div class="step-icon">
+                            <i class="fa-solid fa-circle-natch"></i>
+                        </div>
+                        <div class="step-title">Kagetype</div>
+                    </div>
+                    <div class="step-horizontal">
+                        <div class="step-icon">
+                            <i class="fa-solid fa-circle-natch"></i>
+                        </div>
+                        <div class="step-title">Tilføjelser</div>
+                    </div>
+                    <div class="step-horizontal">
+                        <div class="step-icon">
+                            <i class="fa-solid fa-circle-natch"></i>
+                        </div>
+                        <div class="step-title">Oplysninger</div>
+                    </div>
+                    <div class="step-horizontal">
+                        <div class="step-icon">
+                            <i class="fa-solid fa-circle-natch"></i>
+                        </div>
+                        <div class="step-title">Gennemse</div>
+                    </div>
+                    <div class="step-horizontal">
+                        <div class="step-icon">
+                            <i class="fa-solid fa-circle-natch"></i>
+                        </div>
+                        <div class="step-title">Bekræftelse</div>
+                    </div>
+                </div>
+            </div>
+
             <form id="customerForm">
                 <div class="mb-3">
                     <label for="name" class="form-label">Navn*</label>
@@ -253,6 +376,48 @@ min-height: 100vh;"
         </div>
         <div class="col-12 text-center mt-4">
             <h1>Bekræft dine oplysninger</h1>
+
+            <div class="stepprocessbar">
+                <div class="steps-horizontal">
+                    <div class="step-horizontal complete">
+                        <div class="step-icon">
+                            <i class="fa-solid fa-check"></i>
+                        </div>
+                        <div class="step-title">Afhentning</div>
+                    </div>
+                    <div class="step-horizontal active">
+                        <div class="step-icon">
+                            <i class="fa-solid fa-circle-natch"></i>
+                        </div>
+                        <div class="step-title">Kagetype</div>
+                    </div>
+                    <div class="step-horizontal">
+                        <div class="step-icon">
+                            <i class="fa-solid fa-circle-natch"></i>
+                        </div>
+                        <div class="step-title">Tilføjelser</div>
+                    </div>
+                    <div class="step-horizontal">
+                        <div class="step-icon">
+                            <i class="fa-solid fa-circle-natch"></i>
+                        </div>
+                        <div class="step-title">Oplysninger</div>
+                    </div>
+                    <div class="step-horizontal">
+                        <div class="step-icon">
+                            <i class="fa-solid fa-circle-natch"></i>
+                        </div>
+                        <div class="step-title">Gennemse</div>
+                    </div>
+                    <div class="step-horizontal">
+                        <div class="step-icon">
+                            <i class="fa-solid fa-circle-natch"></i>
+                        </div>
+                        <div class="step-title">Bekræftelse</div>
+                    </div>
+                </div>
+            </div>
+
             <div id="confirmationDetails" class="mt-4 text-start"></div>
             <div class="d-flex justify-content-center align-items-center flex-column pb-5 gap-2 mt-5">
                 <button type="button" class="btn btn-secondary rounded-3 text-white p-3 px-4 next-btn">BEKRÆFT ORDRE</button>
