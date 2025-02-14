@@ -260,16 +260,23 @@ min-height: 100vh;"
                     <option value="Option 3">M&M's</option>
                 </select>
                 <select class="form-select mb-2" aria-label="Dropdown 3" name="option3">
-                    <option selected>Select option 3</option>
-                    <option value="Option 1">Option 1</option>
-                    <option value="Option 2">Option 2</option>
-                    <option value="Option 3">Option 3</option>
+                    <option selected>Glasur og/eller flødeskum</option>
+                    <option value="Option 1">Glasur</option>
+                    <option value="Option 2">Flødeskum</option>
+                    <option value="Option 3">Begge dele</option>
+                    <option value="Option 4">Intet</option>
                 </select>
                 <select class="form-select mb-2" aria-label="Dropdown 4" name="option4">
-                    <option selected>Select option 4</option>
-                    <option value="Option 1">Option 1</option>
-                    <option value="Option 2">Option 2</option>
-                    <option value="Option 3">Option 3</option>
+                    <option selected>Hårtype</option>
+                    <option value="Option 1">Karamel, kort</option>
+                    <option value="Option 2">Karamel, mellemlangt</option>
+                    <option value="Option 3">Karamel, langt</option>
+                    <option value="Option 4">Jordbær, kort</option>
+                    <option value="Option 5">Jordbær, mellemlangt</option>
+                    <option value="Option 6">Jordbær, langt</option>
+                    <option value="Option 7">Lakrids, kort</option>
+                    <option value="Option 8">Lakrids, mellemlangt</option>
+                    <option value="Option 9">Lakrids, langt</option>
                 </select>
                 <select class="form-select mb-2" aria-label="Dropdown 5" name="option5">
                     <option selected>Select option 5</option>
