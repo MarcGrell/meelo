@@ -279,10 +279,11 @@ min-height: 100vh;"
                     <option value="Option 9">Lakrids, langt</option>
                 </select>
                 <select class="form-select mb-2" aria-label="Dropdown 5" name="option5">
-                    <option selected>Select option 5</option>
-                    <option value="Option 1">Option 1</option>
-                    <option value="Option 2">Option 2</option>
-                    <option value="Option 3">Option 3</option>
+                    <option selected>Antal personer</option>
+                    <option value="Option 1">10-15</option>
+                    <option value="Option 2">15-20</option>
+                    <option value="Option 3">20-25</option>
+                    <option value="Option 4">25-30</option>
                 </select>
             </div>
 
