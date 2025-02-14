@@ -148,3 +148,9 @@ input[type="radio"]:checked + div img {
   height: 50px;
   width: auto;
 }
+
+.date {
+  text-transform: capitalize;
+  font-size: 14px;
+  white-space: nowrap;
+}
