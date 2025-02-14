@@ -21,7 +21,7 @@
 
 <body>
 <!-- Nav bar -->
-<nav class="navbar fixed-top">
+<nav class="navbar">
     <div class="container-fluid">
         <a class="" href="#">
             <img src="images/croissantLOGO_50.png" alt="logo" class="logoNavbar">
