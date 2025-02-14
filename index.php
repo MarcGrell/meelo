@@ -105,12 +105,12 @@ min-height: 100vh;"
 
         <div class="stepprocessbar">
             <div class="steps-horizontal">
-                <div class="step-horizontal active">
+                <div class="step-horizontal complete">
                     <div class="step-icon">
                         <i class="fa-regular fa-calendar-days"></i>
                     </div>
                 </div>
-                <div class="step-horizontal">
+                <div class="step-horizontal active">
                     <div class="step-icon">
                         <i class="fa-solid fa-person-half-dress"></i>
                     </div>
@@ -190,17 +190,17 @@ min-height: 100vh;"
 
         <div class="stepprocessbar">
             <div class="steps-horizontal">
-                <div class="step-horizontal active">
+                <div class="step-horizontal complete">
                     <div class="step-icon">
                         <i class="fa-regular fa-calendar-days"></i>
                     </div>
                 </div>
-                <div class="step-horizontal">
+                <div class="step-horizontal complete">
                     <div class="step-icon">
                         <i class="fa-solid fa-person-half-dress"></i>
                     </div>
                 </div>
-                <div class="step-horizontal">
+                <div class="step-horizontal active">
                     <div class="step-icon">
                         <i class="fa-solid fa-plus"></i>
                     </div>
@@ -293,22 +293,22 @@ min-height: 100vh;"
 <div>
     <div class="stepprocessbar">
         <div class="steps-horizontal">
-            <div class="step-horizontal active">
+            <div class="step-horizontal complete">
                 <div class="step-icon">
                     <i class="fa-regular fa-calendar-days"></i>
                 </div>
             </div>
-            <div class="step-horizontal">
+            <div class="step-horizontal complete">
                 <div class="step-icon">
                     <i class="fa-solid fa-person-half-dress"></i>
                 </div>
             </div>
-            <div class="step-horizontal">
+            <div class="step-horizontal complete">
                 <div class="step-icon">
                     <i class="fa-solid fa-plus"></i>
                 </div>
             </div>
-            <div class="step-horizontal">
+            <div class="step-horizontal active">
                 <div class="step-icon">
                     <i class="fa-solid fa-lightbulb"></i>
                 </div>
@@ -368,27 +368,27 @@ min-height: 100vh;"
 
             <div class="stepprocessbar">
                 <div class="steps-horizontal">
-                    <div class="step-horizontal active">
+                    <div class="step-horizontal complete">
                         <div class="step-icon">
                             <i class="fa-regular fa-calendar-days"></i>
                         </div>
                     </div>
-                    <div class="step-horizontal">
+                    <div class="step-horizontal complete">
                         <div class="step-icon">
                             <i class="fa-solid fa-person-half-dress"></i>
                         </div>
                     </div>
-                    <div class="step-horizontal">
+                    <div class="step-horizontal complete">
                         <div class="step-icon">
                             <i class="fa-solid fa-plus"></i>
                         </div>
                     </div>
-                    <div class="step-horizontal">
+                    <div class="step-horizontal complete">
                         <div class="step-icon">
                             <i class="fa-solid fa-lightbulb"></i>
                         </div>
                     </div>
-                    <div class="step-horizontal">
+                    <div class="step-horizontal active">
                         <div class="step-icon">
                             <i class="fa-solid fa-magnifying-glass"></i>
                         </div>
