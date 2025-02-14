@@ -101,7 +101,7 @@ require "settings/init.php";
     // Use forEach to loop through the array and generate HTML
     cardData.forEach((card, index) => {
         const cardHTML = `
-            <div class="col">
+            <div class="col-6">
                 <div class="card mb-3" style="width: 18rem;">
                     <div class="card-body">
                         <h5 class="card-title">${card.name}</h5>
