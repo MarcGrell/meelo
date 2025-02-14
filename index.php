@@ -288,7 +288,7 @@ min-height: 100vh;"
             </div>
 
             <div class="mb-3">
-                <textarea class="form-control" placeholder="Enter your text here" rows="3" name="cakeNotes"></textarea>
+                <textarea class="form-control" placeholder="Tekst på marcipanbånd (maks 50 tegn)" rows="3" name="cakeNotes"></textarea>
             </div>
 
             <div class="d-flex justify-content-center align-items-center flex-column pb-5 gap-2 mt-5">
