@@ -249,6 +249,9 @@ min-height: 100vh;"
 <div class="container section d-none" id="section-6">
     <div class="row justify-content-center">
         <div class="col-12 text-center mt-4">
+            <img src="images/croissantLOGO.png" alt="Logo" class="logo w-25">
+        </div>
+        <div class="col-12 text-center mt-4">
             <h1>Bekræft dine oplysninger</h1>
             <div id="confirmationDetails" class="mt-4 text-start"></div>
             <div class="d-flex justify-content-center align-items-center flex-column pb-5 gap-2 mt-5">
