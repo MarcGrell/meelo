@@ -17,7 +17,7 @@ require "settings/init.php";
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="icon" type="image/x-icon" href="images/croissantFavicon.png">
+    <link rel="icon" type="image/x-icon" href="images/croissantLogo2.png">
 
     <!-- jQuery necessary for Bootstrap's JavaScript plugins -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
