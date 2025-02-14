@@ -17,7 +17,7 @@ require "settings/init.php";
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="icon" type="image/x-icon" href="images/croissantFavicon.png" class="">
+    <link rel="icon" type="image/x-icon" href="images/croissantLogo2.png">
 
     <!-- jQuery necessary for Bootstrap's JavaScript plugins -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -87,10 +87,10 @@ require "settings/init.php";
     // HER SKAL DATA FRA DATABASEN HENTES.....
     const cardData = [
         {name: "Lene Mikkelsen", description: "Kort beskrivelse af bestillingen."},
-        {name: "Emma MEELO", description: "Kort beskrivelse af bestillingen."},
+        {name: "Emma - MEELO", description: "Kort beskrivelse af bestillingen."},
         {name: "Mads Rasmussen", description: "Kort beskrivelse af bestillingen."},
-        {name: "Marc AAUA", description: "Kort beskrivelse af bestillingen."},
-        {name: "Karsten INSA TECH", description: "Kort beskrivelse af bestillingen."},
+        {name: "Marc - AAUA", description: "Kort beskrivelse af bestillingen."},
+        {name: "Karsten - INSA TECH", description: "Kort beskrivelse af bestillingen."},
         {name: "Glen Nielsen", description: "Kort beskrivelse af bestillingen."},
 
     ];

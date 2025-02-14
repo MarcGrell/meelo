@@ -17,7 +17,8 @@ require "settings/init.php";
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="icon" type="image/x-icon" href="images/croissantFavicon.png" class="">
+    <link rel="icon" type="image/x-icon" href="images/croissantLogo2.png">
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
@@ -55,16 +56,16 @@ require "settings/init.php";
             <div class="offcanvas-body">
                 <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                     <li class="nav-item">
-                        <a class="nav-link active m-2 text-center fw-semibold fs-4" aria-current="page" href="#">Ny Bestilling</a>
+                        <a class="nav-link active m-2 text-center fw-semibold fs-4" aria-current="page" href="#">Ny bestilling</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active m-2 text-center fw-semibold fs-4" aria-current="page" href="#">Se Bestilling</a>
+                        <a class="nav-link active m-2 text-center fw-semibold fs-4" aria-current="page" href="#">Se bestilling</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active m-2 text-center fw-semibold fs-4" aria-current="page" href="#">Varer Lager</a>
+                        <a class="nav-link active m-2 text-center fw-semibold fs-4" aria-current="page" href="#">Varelager</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active m-2 text-center fw-semibold fs-4" aria-current="page" href="#">Varer Bestilling</a>
+                        <a class="nav-link active m-2 text-center fw-semibold fs-4" aria-current="page" href="#">Varebestilling</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active m-2 text-center fw-semibold fs-4" aria-current="page" href="#">Kundeservice</a>
