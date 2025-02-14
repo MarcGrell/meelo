@@ -46,12 +46,13 @@ input[type="radio"]:checked + div img {
   transform: scale(1.05); /* Lidt forstørrelse for effekt */
 }
 
+/* Placering på login-side */
 .login-container {
   width: 75%;
   max-width: 400px;
 }
 
-/* procesbar */
+/* Procesbar */
  .stepprocessbar {
    display: flex;
    justify-content: center;
