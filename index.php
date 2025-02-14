@@ -98,13 +98,14 @@ min-height: 100vh;"
 <!-- Choose cake type -->
 <div class="container section d-none" id="section-3">
     <div class="row justify-content-center align-items-center">
-
-        <div>
-            <h1 class="mb-5 mt-5 text-center">Vælg din kagetype;</h1>
+        <div class="col-12 text-center mt-4">
+            <img src="images/croissantLOGO.png" alt="Logo" class="logo w-25">
         </div>
-
+        <div>
+            <h1 class="mt-4 text-center">Vælg din kagetype</h1>
+        </div>
         <div class="stepprocessbar">
-            <div class="steps-horizontal">
+            <div class="steps-horizontal mb-4">
                 <div class="step-horizontal complete">
                     <div class="step-icon">
                         <i class="fa-regular fa-calendar-days"></i>
@@ -137,8 +138,6 @@ min-height: 100vh;"
                 </div>
             </div>
         </div>
-
-
         <div class="col-12 mb-4 col-md-4 px-5">
             <h5 class="text-start">Kagemand</h5>
             <label class="form-check-label w-100 kage-valg">
@@ -186,7 +185,7 @@ min-height: 100vh;"
         <div class="col-12 text-center mt-4">
             <img src="images/croissantLOGO.png" alt="Logo" class="logo w-25">
         </div>
-        <h1 class="mt-4">Design din kage</h1>
+        <h1 class="mt-4 text-center">Design din kage</h1>
 
         <div class="stepprocessbar">
             <div class="steps-horizontal">
@@ -226,7 +225,7 @@ min-height: 100vh;"
         <form id="cakeForm" class="mt-4">
             <div class="mb-3">
                 <select class="form-select mb-2" aria-label="Dropdown 1" name="option1">
-                    <option selected>Kage variant</option>
+                    <option selected>Kagevariant</option>
                     <option value="Option 1">Brunsviger</option>
                     <option value="Option 2">Hindbærsnitte</option>
                     <option value="Option 3">Vandbakkelse</option>
@@ -237,15 +236,15 @@ min-height: 100vh;"
                 </select>
                 <select class="form-select mb-2" aria-label="Dropdown 2" name="option2">
                     <option selected>Slik</option>
-                    <option value="Option 1">Click Mix</option>
-                    <option value="Option 2">Matador Mix</option>
+                    <option value="Option 1">Click-Mix</option>
+                    <option value="Option 2">Matador-Mix</option>
                     <option value="Option 3">M&M's</option>
                 </select>
                 <select class="form-select mb-2" aria-label="Dropdown 3" name="option3">
                     <option selected>Glasur og/eller flødeskum</option>
                     <option value="Option 1">Glasur</option>
                     <option value="Option 2">Flødeskum</option>
-                    <option value="Option 3">Begge dele</option>
+                    <option value="Option 3">Glasur og flødeskum</option>
                     <option value="Option 4">Intet</option>
                 </select>
                 <select class="form-select mb-2" aria-label="Dropdown 4" name="option4">
@@ -270,7 +269,7 @@ min-height: 100vh;"
             </div>
 
             <div class="mb-3">
-                <textarea class="form-control" placeholder="Tekst på marcipanbånd (maks 50 tegn)" rows="3" name="cakeNotes"></textarea>
+                <textarea class="form-control" placeholder="Tekst på marcipanbånd (maks 50 tegn):" rows="3" name="cakeNotes"></textarea>
             </div>
 
             <div class="d-flex justify-content-center align-items-center flex-column pb-5 gap-2 mt-5">
@@ -292,7 +291,7 @@ min-height: 100vh;"
         </div>
 <div>
     <div class="stepprocessbar">
-        <div class="steps-horizontal">
+        <div class="steps-horizontal mb-4">
             <div class="step-horizontal complete">
                 <div class="step-icon">
                     <i class="fa-regular fa-calendar-days"></i>
@@ -364,10 +363,10 @@ min-height: 100vh;"
             <img src="images/croissantLOGO.png" alt="Logo" class="logo w-25">
         </div>
         <div class="col-12 text-center mt-4">
-            <h1>Bekræft dine oplysninger</h1>
+            <h1>Bekræft oplysninger</h1>
 
             <div class="stepprocessbar">
-                <div class="steps-horizontal">
+                <div class="steps-horizontal mb-4">
                     <div class="step-horizontal complete">
                         <div class="step-icon">
                             <i class="fa-regular fa-calendar-days"></i>
