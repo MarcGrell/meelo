@@ -244,10 +244,14 @@ min-height: 100vh;"
         <form id="cakeForm" class="mt-4">
             <div class="mb-3">
                 <select class="form-select mb-2" aria-label="Dropdown 1" name="option1">
-                    <option selected>Select option 1</option>
-                    <option value="Option 1">Option 1</option>
-                    <option value="Option 2">Option 2</option>
-                    <option value="Option 3">Option 3</option>
+                    <option selected>Kage variant</option>
+                    <option value="Option 1">Brunsviger</option>
+                    <option value="Option 2">Hindbærsnitte</option>
+                    <option value="Option 3">Vandbakkelse</option>
+                    <option value="Option 4">Kanelstang</option>
+                    <option value="Option 5">Wienerbrød</option>
+                    <option value="Option 6">Tebolle</option>
+                    <option value="Option 7">Chokoladekage</option>
                 </select>
                 <select class="form-select mb-2" aria-label="Dropdown 2" name="option2">
                     <option selected>Select option 2</option>
