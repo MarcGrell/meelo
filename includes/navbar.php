@@ -41,7 +41,7 @@
             </div>
         </div>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <button class="navbar-toggler bg-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <!-- content -->
@@ -52,19 +52,19 @@
             <div class="offcanvas-body">
                 <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                     <li class="nav-item">
-                        <a class="nav-link active m-2 text-center fw-semibold fs-4" aria-current="page" href="#">Ny bestilling</a>
+                        <a class="nav-link active m-2 fw-semibold fs-4" aria-current="page" href="#">Ny bestilling</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active m-2 text-center fw-semibold fs-4" aria-current="page" href="#">Se bestilling</a>
+                        <a class="nav-link active m-2 fw-semibold fs-4" aria-current="page" href="#">Se bestilling</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active m-2 text-center fw-semibold fs-4" aria-current="page" href="#">Varelager</a>
+                        <a class="nav-link active m-2 fw-semibold fs-4" aria-current="page" href="#">Varelager</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active m-2 text-center fw-semibold fs-4" aria-current="page" href="#">Varebestilling</a>
+                        <a class="nav-link active m-2 fw-semibold fs-4" aria-current="page" href="#">Varebestilling</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active m-2 text-center fw-semibold fs-4" aria-current="page" href="#">Kundeservice</a>
+                        <a class="nav-link active m-2 fw-semibold fs-4" aria-current="page" href="#">Kundeservice</a>
                     </li>
             </div>
         </div>
