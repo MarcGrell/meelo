@@ -76,8 +76,8 @@ require "settings/init.php";
                 Er du sikker?
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-danger" data-dismiss="modal">JA!</button>
-                <button type="button" class="btn btn-success" data-dismiss="modal">NEJ!</button>
+                <button type="button" class="btn btn-success" data-dismiss="modal">JA!</button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">NEJ!</button>
             </div>
         </div>
     </div>
