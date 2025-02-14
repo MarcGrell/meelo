@@ -55,16 +55,16 @@ require "settings/init.php";
             <div class="offcanvas-body">
                 <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                     <li class="nav-item">
-                        <a class="nav-link active m-2 text-center fw-semibold fs-4" aria-current="page" href="#">Ny Bestilling</a>
+                        <a class="nav-link active m-2 text-center fw-semibold fs-4" aria-current="page" href="#">Ny bestilling</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active m-2 text-center fw-semibold fs-4" aria-current="page" href="#">Se Bestilling</a>
+                        <a class="nav-link active m-2 text-center fw-semibold fs-4" aria-current="page" href="#">Se bestilling</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active m-2 text-center fw-semibold fs-4" aria-current="page" href="#">Varer Lager</a>
+                        <a class="nav-link active m-2 text-center fw-semibold fs-4" aria-current="page" href="#">Varelager</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active m-2 text-center fw-semibold fs-4" aria-current="page" href="#">Varer Bestilling</a>
+                        <a class="nav-link active m-2 text-center fw-semibold fs-4" aria-current="page" href="#">Varebestilling</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active m-2 text-center fw-semibold fs-4" aria-current="page" href="#">Kundeservice</a>
