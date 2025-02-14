@@ -308,7 +308,7 @@ min-height: 100vh;"
         <div class="col-md-6 mt-4">
             <h1 class="text-center mb-4">Dine oplysninger</h1>
         </div>
-
+<div>
             <div class="stepprocessbar">
                 <div class="steps-horizontal">
                     <div class="step-horizontal complete">
@@ -349,6 +349,7 @@ min-height: 100vh;"
                     </div>
                 </div>
             </div>
+</div>
 
             <form id="customerForm">
                 <div class="mb-3">
