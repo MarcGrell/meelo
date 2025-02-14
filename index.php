@@ -269,13 +269,13 @@ min-height: 100vh;"
                 <select class="form-select mb-2" aria-label="Dropdown 4" name="option4">
                     <option selected>Hårtype</option>
                     <option value="Option 1">Karamel, kort</option>
-                    <option value="Option 2">Karamel, mellemlangt</option>
+                    <option value="Option 2">Karamel, mellem</option>
                     <option value="Option 3">Karamel, langt</option>
                     <option value="Option 4">Jordbær, kort</option>
-                    <option value="Option 5">Jordbær, mellemlangt</option>
+                    <option value="Option 5">Jordbær, mellem</option>
                     <option value="Option 6">Jordbær, langt</option>
                     <option value="Option 7">Lakrids, kort</option>
-                    <option value="Option 8">Lakrids, mellemlangt</option>
+                    <option value="Option 8">Lakrids, mellem</option>
                     <option value="Option 9">Lakrids, langt</option>
                 </select>
                 <select class="form-select mb-2" aria-label="Dropdown 5" name="option5">
