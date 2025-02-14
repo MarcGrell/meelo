@@ -34,7 +34,7 @@ require "settings/init.php";
         </div>
         <button href="kalender.php" class="btn btn-primary text-white w-100">LOGIN</button>
         <div class="mt-2 text-end">
-            <a href="#" class="text-primary">Forgot password?</a>
+            <a class="text-primary">Forgot password?</a>
         </div>
     </div>
 </div>
