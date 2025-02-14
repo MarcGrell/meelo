@@ -46,6 +46,10 @@ input[type="radio"]:checked + div img {
   transform: scale(1.05); /* Lidt forstørrelse for effekt */
 }
 
+@media (min-width: 768px){
+.login-container {width: 25%}
+}
+
 
 /* procesbar */
  .stepprocessbar {
