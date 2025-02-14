@@ -254,10 +254,10 @@ min-height: 100vh;"
                     <option value="Option 7">Chokoladekage</option>
                 </select>
                 <select class="form-select mb-2" aria-label="Dropdown 2" name="option2">
-                    <option selected>Select option 2</option>
-                    <option value="Option 1">Option 1</option>
-                    <option value="Option 2">Option 2</option>
-                    <option value="Option 3">Option 3</option>
+                    <option selected>Slik</option>
+                    <option value="Option 1">Click Mix</option>
+                    <option value="Option 2">Matador Mix</option>
+                    <option value="Option 3">M&M's</option>
                 </select>
                 <select class="form-select mb-2" aria-label="Dropdown 3" name="option3">
                     <option selected>Select option 3</option>
