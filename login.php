@@ -21,7 +21,9 @@ require "settings/init.php";
 
 </head>
 
-<body class="d-flex flex-column vh-100">
+<body>
+
+<div class="container d-flex flex-column vh-100">
 <div class="flex-grow-1 d-flex justify-content-center align-items-center">
     <div class="login-container text-center w-25">
         <div class="input-group mb-2">
@@ -38,7 +40,9 @@ require "settings/init.php";
         </div>
     </div>
 </div>
+
 <div class="text-center pb-3">POWERED BY <img src="images/LogoFinal.png" alt="Logo" width="30"></div>
+</div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
