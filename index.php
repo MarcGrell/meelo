@@ -343,7 +343,7 @@ min-height: 100vh;"
             <img src="images/croissantLOGO.png" alt="Logo" class="logo w-25">
         </div>
         <div class="col-md-6 mt-4">
-            <h1 class="text-center mb-4">Dine oplysninger</h1>
+            <h1 class="text-center mb-2">Dine oplysninger</h1>
         </div>
         <div>
             <div class="stepprocessbar">
@@ -426,7 +426,7 @@ min-height: 100vh;"
             <h1>Bekræft oplysninger</h1>
 
             <div class="stepprocessbar">
-                <div class="steps-horizontal mt-4 mb-3">
+                <div class="steps-horizontal mt-2 mb-3">
                     <div class="step-horizontal complete">
                         <div class="step-icon">
                             <i class="fa-regular fa-calendar-days"></i>
