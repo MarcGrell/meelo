@@ -459,7 +459,7 @@ min-height: 100vh;"
                     </div>
                 </div>
             </div>
-            <form id="confirmationForm" method="POST" action="phpSandbox.php">
+            <form id="confirmationForm" method="POST" action="index.php">
                 <div class="d-flex justify-content-center align-items-center flex-column pb-5 gap-2 mt-5 confirmation">
                     <h2>Order Confirmation</h2>
                     <p><strong>Dato:</strong> <span id="confirmDate"></span></p>
