@@ -426,7 +426,7 @@ min-height: 100vh;"
             <h1>Bekræft oplysninger</h1>
 
             <div class="stepprocessbar">
-                <div class="steps-horizontal mb-4">
+                <div class="steps-horizontal mt-4 mb-3">
                     <div class="step-horizontal complete">
                         <div class="step-icon">
                             <i class="fa-regular fa-calendar-days"></i>
@@ -460,7 +460,7 @@ min-height: 100vh;"
                 </div>
             </div>
             <form id="confirmationForm" method="POST" action="index.php">
-                <div class="d-flex text-start flex-column pb-5 gap-2 mt-5 confirmation">
+                <div class="d-flex text-start flex-column pb-5 gap-2 mt-5 confirmation ms-2">
                     <p><strong>Dato:</strong><span id="confirmDate"></span></p>
                     <p><strong>Kagetype:</strong> <span id="confirmType"></span></p>
                     <p><strong>Kagevariant:</strong> <span id="confirmVar"></span></p>
