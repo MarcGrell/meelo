@@ -216,7 +216,7 @@ min-height: 100vh;"
             </label>
         </div>
 
-        <div class="d-flex justify-content-center align-items-center flex-column pb-5 gap-2 mt-5">
+        <div class="d-flex justify-content-center align-items-center flex-column pb-5 gap-2 mt-4">
             <button type="button" class="btn btn-primary rounded-3 text-white p-3 px-4 next-btn">VIDERE <i
                         class="fa-sharp fa-solid fa-arrow-right"></i></button>
             <button type="button" class="btn btn-white rounded-3 text-decoration-underline prev-btn"><i
@@ -490,7 +490,7 @@ min-height: 100vh;"
                 <input type="hidden" name="data[inpuComment]" id="inpuComment">
 
 
-                <div class="d-flex justify-content-center align-items-center flex-column pb-5 gap-2 mt-5">
+                <div class="d-flex justify-content-center align-items-center flex-column pb-5 gap-2">
                     <button type="submit" class="btn btn-secondary rounded-3 text-white p-3 px-4 next-btn">BEKRÆFT ORDRE
                     </button>
                     <button type="button" class="btn btn-white rounded-3 text-decoration-underline prev-btn"><i
