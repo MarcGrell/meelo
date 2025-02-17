@@ -461,17 +461,16 @@ min-height: 100vh;"
             </div>
             <form id="confirmationForm" method="POST" action="index.php">
                 <div class="d-flex justify-content-center align-items-center flex-column pb-5 gap-2 mt-5 confirmation">
-                    <h2>Order Confirmation</h2>
                     <p><strong>Dato:</strong> <span id="confirmDate"></span></p>
-                    <p><strong>Kage type:</strong> <span id="confirmType"></span></p>
-                    <p><strong>Kage variant:</strong> <span id="confirmVar"></span></p>
+                    <p><strong>Kagetype:</strong> <span id="confirmType"></span></p>
+                    <p><strong>Kagevariant:</strong> <span id="confirmVar"></span></p>
                     <p><strong>Slik:</strong> <span id="confirmCandy"></span></p>
                     <p><strong>Glasur:</strong> <span id="confirmIcing"></span></p>
-                    <p><strong>Hår type:</strong> <span id="confirmHair"></span></p>
+                    <p><strong>Hårtype:</strong> <span id="confirmHair"></span></p>
                     <p><strong>Antal personer:</strong> <span id="confirmPax"></span></p>
-                    <p><strong>Text:</strong> <span id="confirmText"></span></p>
+                    <p><strong>Tekst:</strong> <span id="confirmText"></span></p>
                     <p><strong>Navn:</strong> <span id="confirmName"></span></p>
-                    <p><strong>Company:</strong> <span id="confirmCompany"></span></p>
+                    <p><strong>Firma:</strong> <span id="confirmCompany"></span></p>
                     <p><strong>Telefon:</strong> <span id="confirmPhone"></span></p>
                     <p><strong>Email:</strong> <span id="confirmEmail"></span></p>
                     <p><strong>Bemærkninger:</strong> <span id="confirmNotes"></span></p>
