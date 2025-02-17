@@ -76,7 +76,7 @@ min-height: 100vh;"
      class="d-flex flex-column section" id="section-1">
 
     <div class="background-img container-fluid d-flex justify-content-center align-items-center vh-100">
-        <button type="button" class="btn-custom py-5 btn btn-primary rounded-5 fs-3 next-btn">NY BESTILLING</button>
+        <button type="button" class="btn-custom py-4 btn btn-primary rounded-4 fs-4 next-btn">NY BESTILLING</button>
     </div>
 
 </div>
