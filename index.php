@@ -460,8 +460,8 @@ min-height: 100vh;"
                 </div>
             </div>
             <form id="confirmationForm" method="POST" action="index.php">
-                <div class="d-flex justify-content-center align-items-center flex-column pb-5 gap-2 mt-5 confirmation">
-                    <p><strong>Dato:</strong> <span id="confirmDate"></span></p>
+                <div class="d-flex text-start flex-column pb-5 gap-2 mt-5 confirmation">
+                    <p><strong>Dato:</strong><span id="confirmDate"></span></p>
                     <p><strong>Kagetype:</strong> <span id="confirmType"></span></p>
                     <p><strong>Kagevariant:</strong> <span id="confirmVar"></span></p>
                     <p><strong>Slik:</strong> <span id="confirmCandy"></span></p>
