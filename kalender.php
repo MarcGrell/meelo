@@ -54,9 +54,9 @@ include("includes/navbar.php");
                 <div class="card mb-3" style="width: 100%;">
                     <div class="card-body">
                         <h5 class="card-title"><?php echo $order->inpuName; ?></h5>
-                        <p class="card-text"><strong>Kage type:</strong> <?php echo $order->inpuVar; ?></p>
+                        <p class="card-text"><strong>Kagetype:</strong> <?php echo $order->inpuVar; ?></p>
                         <p class="card-text"><strong>Antal personer:</strong> <?php echo $order->inpuPax; ?></p>
-                        <p class="card-text"><strong>Afhentes:</strong> <?php echo date('d-m-y H:i', strtotime($order->inpuDate)); ?></p>
+                        <p class="card-text"><strong>Afhentningsdag:</strong> <?php echo date('d-m-y H:i', strtotime($order->inpuDate)); ?></p>
                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#popupModal<?php echo $order->inpuId; ?>">
                             SE BESTILLING
                         </button>
@@ -67,20 +67,20 @@ include("includes/navbar.php");
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Ordre detaljer:</h5>
+                                        <h5 class="modal-title" id="exampleModalLabel">Oplysninger:</h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                         </button>
                                     </div>
                                     <div class="modal-body">
-                                        <p class="card-text"><strong>Kage type:</strong> <?php echo $order->inpuVar; ?></p>
-                                        <p class="card-text"><strong>Kage form:</strong> <?php echo $order->inpuType; ?></p>
+                                        <p class="card-text"><strong>Kagetype:</strong> <?php echo $order->inpuVar; ?></p>
+                                        <p class="card-text"><strong>Kageform:</strong> <?php echo $order->inpuType; ?></p>
                                         <p class="card-text"><strong>Antal personer:</strong> <?php echo $order->inpuPax; ?></p>
                                         <p class="card-text"><strong>Slik:</strong> <?php echo $order->inpuCandy; ?></p>
                                         <p class="card-text"><strong>Hår:</strong> <?php echo $order->inpuHair; ?></p>
                                         <p class="card-text"><strong>Glasur:</strong> <?php echo $order->inpuIcing; ?></p>
-                                        <p class="card-text"><strong>Text:</strong> <?php echo $order->inpuText; ?></p>
-                                        <p class="card-text"><strong>Afhentes:</strong> <?php echo date('d-m-y H:i', strtotime($order->inpuDate)); ?></p>
+                                        <p class="card-text"><strong>Tekst:</strong> <?php echo $order->inpuText; ?></p>
+                                        <p class="card-text"><strong>Afhentningsdag:</strong> <?php echo date('d-m-y H:i', strtotime($order->inpuDate)); ?></p>
                                         <h4 class="card-text"><strong>Kundens oplysninger:</strong></h4>
                                         <p class="card-text"><strong>Navn:</strong> <?php echo $order->inpuName; ?></p>
                                         <p class="card-text"><strong>Telefon:</strong> <?php echo $order->inpuPhoneNumber; ?></p>
@@ -89,9 +89,9 @@ include("includes/navbar.php");
                                         <p class="card-text"><strong>Bemærkninger:</strong> <?php echo $order->inpuComment; ?></p>
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-primary" data-dismiss="modal">LUK</button>
+                                        <button type="button" class="btn btn-primary text-end" data-dismiss="modal">LUK</button>
                                         <button type="button" class="btn btn-primary" data-dismiss="modal">PRINT</button>
-                                        <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        <button type="button" class="btn btn-secondary" data-toggle="modal"
                                                 data-target="#pickupModal<?php echo $order->inpuId; ?>">AFHENT
                                         </button>
                                     </div>
@@ -105,7 +105,7 @@ include("includes/navbar.php");
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">AFHENT ORDER?</h5>
+                                        <h5 class="modal-title" id="exampleModalLabel">AFHENT ORDRE</h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                         </button>
@@ -114,8 +114,8 @@ include("includes/navbar.php");
                                         Er du sikker?
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-success" data-dismiss="modal">JA!</button>
-                                        <button type="button" class="btn btn-danger" data-dismiss="modal">NEJ!</button>
+                                        <button type="button" class="btn btn-success" data-dismiss="modal">JA</button>
+                                        <button type="button" class="btn btn-danger" data-dismiss="modal">NEJ</button>
                                     </div>
                                 </div>
                             </div>
