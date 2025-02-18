@@ -90,9 +90,9 @@ include("includes/navbar.php");
                                         <p class="card-text"><strong>Bemærkninger:</strong> <?php echo $order->inpuComment; ?></p>
                                     </div>
                                     <div class="modal-footer d-flex justify-content-between">
-                                        <button type="button" class="btn btn-primary" data-dismiss="modal">LUK</button>
+                                        <button type="button" class="btn btn-white text-decoration-underline" data-dismiss="modal">LUK</button>
                                     <div class="d-flex gap-2">
-                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">PRINT</button>
+                                        <button type="button" class="btn btn-primary" data-dismiss="modal">PRINT</button>
                                         <button type="button" class="btn btn-secondary" data-toggle="modal"
                                                 data-target="#pickupModal<?php echo $order->inpuId; ?>">AFHENT
                                         </button>
