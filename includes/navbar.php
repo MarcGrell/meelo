@@ -24,7 +24,7 @@
 <nav class="navbar">
     <div class="container-fluid">
         <a class="" href="#">
-            <img src="images/croissantLOGO_50.png" alt="logo" class="logoNavbar">
+            <img src="images/croissantLOGO.png" alt="logo" class="logoNavbar">
         </a>
 
         <div class="container w-50">
