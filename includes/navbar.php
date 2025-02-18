@@ -41,7 +41,7 @@
             </div>
         </div>
 
-        <button class="navbar-toggler bg-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <button class="navbar-toggler bg-primary border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <!-- content -->
@@ -49,13 +49,16 @@
             <div class="offcanvas-header">
                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
-            <div class="offcanvas-body">
-                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <div class="offcanvas-body d-flex flex-column">
+                <ul class="navbar-nav flex-grow-1 pe-3">
                     <li class="nav-item">
                         <a class="nav-link active m-2 fw-semibold fs-4" aria-current="page" href="#">Ny bestilling</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active m-2 fw-semibold fs-4" aria-current="page" href="#">Se bestilling</a>
+                        <a class="nav-link active m-2 fw-semibold fs-4" aria-current="page" href="#">Se bestillinger</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active m-2 fw-semibold fs-4" aria-current="page" href="#">Tidligere bestillinger</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active m-2 fw-semibold fs-4" aria-current="page" href="#">Varelager</a>
@@ -66,6 +69,10 @@
                     <li class="nav-item">
                         <a class="nav-link active m-2 fw-semibold fs-4" aria-current="page" href="#">Kundeservice</a>
                     </li>
+                </ul>
+                <div class="mt-auto">
+                    <a class="nav-link btn active m-2 fw-semibold fs-5 btn-primary w-25 btn-start py-2" aria-current="page" href="login.php">Log ud</a>
+                </div>
             </div>
         </div>
     </div>
