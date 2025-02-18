@@ -166,3 +166,10 @@ input[type="radio"]:checked + div img {
   font-size: 14px;
   white-space: nowrap;
 }
+
+/* Fjerner blå skygge */
+input[type="datetime-local"]:focus {
+  outline: none;
+  box-shadow: none;
+  border: 2px solid lightgray;
+}
