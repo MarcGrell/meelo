@@ -26,24 +26,35 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 .btn-custom2 {width: 50%;}
 
-@media (min-width: 768px){
-  .btn-custom {width: 50%;}
+@media (min-width: 992px){
+  .btn-custom {width: 25%;}
 }
 
 @media (min-width: 992px){
-  .btn-custom {width: 50%;}
+  .btn-custom2 {width: 25%;}
 }
 
-/* Standardbillede uden kant */
+.image-confirm {width: 75%;}
+
+@media (min-width: 768px){
+  .image-confirm {width: 50%;}
+}
+
+@media (min-width: 992px){
+  .image-confirm {width: 25%;}
+}
+
+
+/* Billede uden kant */
 .kage-billede {
   transition: border 0.3s ease, transform 0.3s ease;
 }
 
-/* Når radio-knappen er valgt, vis en orange kant om billedet */
+/* Når radio-knappen er valgt, orange kant om billedet */
 input[type="radio"]:checked + div img {
   border: 4px solid #f19f01; /* Orange kant */
   border-radius: 10px; /* Afrundede kanter */
-  transform: scale(1.05); /* Lidt forstørrelse for effekt */
+  transform: scale(1.05);
 }
 
 /* Placering på login-side */

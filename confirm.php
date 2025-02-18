@@ -80,11 +80,11 @@ if (!empty($_POST["data"])) {
 
     <div class="d-flex justify-content-center align-items-center">
         <img src="images/croissantCheckmark.png" alt="Croissant med flueben"
-             class="mx-5 mt-3 mb-5 w-75 checkmarkLogo">
+             class="mx-5 mt-3 mb-5 image-confirm">
     </div>
 
     <div class="d-flex justify-content-center align-items-center">
-        <a type="button" class="btn-custom2 p-3 m-5 btn btn-primary rounded-3 fs-6 text-white" href="index.php">NY BESTILLING
+        <a type="button" class="btn-custom2 p-3 m-5 btn btn-primary rounded-3 fs-6" href="index.php">NY BESTILLING
         </a>
     </div>
 </div>
