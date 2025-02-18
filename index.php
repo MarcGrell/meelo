@@ -76,7 +76,7 @@ min-height: 100vh;"
      class="d-flex flex-column section" id="section-1">
 
     <div class="background-img container-fluid d-flex justify-content-center align-items-center vh-100">
-        <button type="button" class="btn-custom py-5 btn btn-primary rounded-5 fs-3 next-btn">NY BESTILLING</button>
+        <button type="button" class="btn-custom py-4 btn btn-primary rounded-4 fs-4 next-btn">NY BESTILLING</button>
     </div>
 
 </div>
@@ -216,7 +216,7 @@ min-height: 100vh;"
             </label>
         </div>
 
-        <div class="d-flex justify-content-center align-items-center flex-column pb-5 gap-2 mt-5">
+        <div class="d-flex justify-content-center align-items-center flex-column pb-5 gap-2 mt-4">
             <button type="button" class="btn btn-primary rounded-3 text-white p-3 px-4 next-btn">VIDERE <i
                         class="fa-sharp fa-solid fa-arrow-right"></i></button>
             <button type="button" class="btn btn-white rounded-3 text-decoration-underline prev-btn"><i
@@ -343,7 +343,7 @@ min-height: 100vh;"
             <img src="images/croissantLOGO.png" alt="Logo" class="logo w-25">
         </div>
         <div class="col-md-6 mt-4">
-            <h1 class="text-center mb-4">Dine oplysninger</h1>
+            <h1 class="text-center mb-2">Dine oplysninger</h1>
         </div>
         <div>
             <div class="stepprocessbar">
@@ -426,7 +426,7 @@ min-height: 100vh;"
             <h1>Bekræft oplysninger</h1>
 
             <div class="stepprocessbar">
-                <div class="steps-horizontal mb-4">
+                <div class="steps-horizontal mt-2 mb-3">
                     <div class="step-horizontal complete">
                         <div class="step-icon">
                             <i class="fa-regular fa-calendar-days"></i>
@@ -460,7 +460,7 @@ min-height: 100vh;"
                 </div>
             </div>
             <form id="confirmationForm" method="POST" action="index.php">
-                <div class="d-flex text-start flex-column pb-5 gap-2 mt-5 confirmation">
+                <div class="d-flex text-start flex-column pb-5 gap-2 mt-5 confirmation ms-2">
                     <p><strong>Dato:</strong><span id="confirmDate"></span></p>
                     <p><strong>Kagetype:</strong> <span id="confirmType"></span></p>
                     <p><strong>Kagevariant:</strong> <span id="confirmVar"></span></p>
@@ -490,7 +490,7 @@ min-height: 100vh;"
                 <input type="hidden" name="data[inpuComment]" id="inpuComment">
 
 
-                <div class="d-flex justify-content-center align-items-center flex-column pb-5 gap-2 mt-5">
+                <div class="d-flex justify-content-center align-items-center flex-column pb-5 gap-2">
                     <button type="submit" class="btn btn-secondary rounded-3 text-white p-3 px-4 next-btn">BEKRÆFT ORDRE
                     </button>
                     <button type="button" class="btn btn-white rounded-3 text-decoration-underline prev-btn"><i
