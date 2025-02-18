@@ -1,49 +1,5 @@
 <?php
 require "settings/init.php";
-
-if (!empty($_POST["data"])) {
-    $data = $_POST["data"];
-
-    $sql = "INSERT INTO input (
-        inpuDate,
-        inpuType,
-        inpuVar,
-        inpuCandy,
-        inpuIcing,
-        inpuHair,
-        inpuPax,
-        inpuText,
-        inpuName,
-        inpuCompany,
-        inpuPhoneNumber,
-        inpuEmail,
-        inpuComment
-    ) VALUES (
-    :inpuDate,
-    :inpuType,
-    :inpuVar,
-    :inpuCandy,
-    :inpuIcing,
-    :inpuHair,
-    :inpuPax,
-    :inpuText,
-    :inpuName,
-    :inpuCompany,
-    :inpuPhoneNumber,
-    :inpuEmail,
-    :inpuComment
-)";
-
-    $bind = [":inpuDate" => $data["inpuDate"], ":inpuType" => $data["inpuType"], ":inpuVar" => $data["inpuVar"],
-        ":inpuCandy" => $data["inpuCandy"], ":inpuIcing" => $data["inpuIcing"], ":inpuHair" => $data["inpuHair"],
-        ":inpuPax" => $data["inpuPax"], ":inpuText" => $data["inpuText"], ":inpuName" => $data["inpuName"],
-        ":inpuCompany" => $data["inpuCompany"], ":inpuPhoneNumber" => $data["inpuPhoneNumber"],
-        ":inpuEmail" => $data["inpuEmail"], ":inpuComment" => $data["inpuComment"]];
-
-    $db->sql($sql, $bind, false);
-
-}
-
 ?>
 <!DOCTYPE html>
 <html lang="da">
@@ -459,7 +415,7 @@ min-height: 100vh;"
                     </div>
                 </div>
             </div>
-            <form id="confirmationForm" method="POST" action="index.php">
+            <form id="confirmationForm" method="POST" action="confirm.php">
                 <div class="d-flex text-start flex-column pb-5 gap-2 mt-5 confirmation ms-2">
                     <p><strong>Dato:</strong><span id="confirmDate"></span></p>
                     <p><strong>Kagetype:</strong> <span id="confirmType"></span></p>
