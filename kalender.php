@@ -94,7 +94,7 @@ include("includes/navbar.php");
                                     <div class="d-flex gap-2">
                                         <button type="button" class="btn btn-primary" data-dismiss="modal">PRINT</button>
                                         <button type="button" class="btn btn-secondary" data-toggle="modal"
-                                                data-target="#pickupModal<?php echo $order->inpuId; ?>">AFHENT
+                                                data-target="#pickupModal<?php echo $order->inpuId; ?>">UDLEVER
                                         </button>
                                     </div>
                                 </div>
@@ -108,17 +108,17 @@ include("includes/navbar.php");
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title fw-bold" id="exampleModalLabel">AFHENT ORDRE</h5>
+                                        <h5 class="modal-title fw-bold" id="exampleModalLabel">UDLEVER ORDRE?</h5>
                                         <button type="button" class="close ms-auto bg-white border-0 fs-4" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                         </button>
                                     </div>
-                                    <div class="modal-body fs-4">
+                                    <div class="modal-body fs-5">
                                         Er du sikker?
                                     </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-success" data-dismiss="modal">JA</button>
+                                    <div class="modal-footer d-flex justify-content-between">
                                         <button type="button" class="btn btn-danger" data-dismiss="modal">NEJ</button>
+                                        <button type="button" class="btn btn-success px-3" data-dismiss="modal">JA</button>
                                     </div>
                                 </div>
                             </div>
