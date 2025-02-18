@@ -136,3 +136,4 @@ include("includes/navbar.php");
 
 </script>
 </body>
+</html>
