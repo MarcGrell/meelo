@@ -4,6 +4,11 @@
  */
 
 require "settings/init.php";
+
+
+
+
+
 ?>
 <!DOCTYPE html>
 <html lang="da">
@@ -16,25 +21,24 @@ require "settings/init.php";
     <meta name="author" content="Udgiver">
     <meta name="copyright" content="Information om copyright">
 
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="../css/styles.css" rel="stylesheet" type="text/css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<body style="background-image: url('images/backgroundImage.png');
-             background-size: cover;
-             background-repeat: no-repeat;
-             min-height: 100vh;"
-      class="d-flex flex-column">
+<body>
 
+<div style="background-image: url('../images/backgroundImage.png');
+background-size: cover;
+background-repeat: no-repeat;
+min-height: 100vh;"
+class="d-flex flex-column">
 
-
-<div class="container-fluid d-flex justify-content-center align-items-center" style="height: 100vh;">
+<div class="background-img container-fluid d-flex justify-content-center align-items-center vh-100">
     <button class="btn-custom py-5 btn btn-primary rounded-5 fs-3">NY BESTILLING</button>
 </div>
 
-
-
+</div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
