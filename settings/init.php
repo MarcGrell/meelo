@@ -40,10 +40,10 @@ if(CONFIG_LIVE == 0) {
     $DB_USER = "user";
     $DB_PASS = "password";
 } else if(CONFIG_LIVE == 1) {
-    $DB_SERVER = "";
-    $DB_NAME = "";
-    $DB_USER = "";
-    $DB_PASS = "";
+    $DB_SERVER = "mysql11.unoeuro.com";
+    $DB_NAME = "marcgrell_dk_db";
+    $DB_USER = "marcgrell_dk";
+    $DB_PASS = "b5A4Drez2FRdkGBngpah";
 }
 
 $db = new db($DB_SERVER, $DB_NAME, $DB_USER, $DB_PASS);
