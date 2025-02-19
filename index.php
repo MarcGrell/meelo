@@ -157,7 +157,7 @@ min-height: 100vh;"
             <label class="form-check-label w-100 kage-valg">
                 <input type="radio" id="cakeType" name="cakeType" value="kagedame" class="form-check-input d-none">
                 <div class="d-flex justify-content-center">
-                    <img src="images/Hindbærsnitte%20(1).webp" alt="Kagedame" class="img-fluid w-100 kage-billede">
+                    <img src="images/Hindbærsnitte (1).webp" alt="Kagedame" class="img-fluid w-100 kage-billede">
                 </div>
             </label>
         </div>

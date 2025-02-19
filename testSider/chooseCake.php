@@ -16,7 +16,7 @@ require "settings/init.php";
     <meta name="author" content="Udgiver">
     <meta name="copyright" content="Information om copyright">
 
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="../css/styles.css" rel="stylesheet" type="text/css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://kit.fontawesome.com/30d6e0b537.js" crossorigin="anonymous"></script>
@@ -81,7 +81,7 @@ require "settings/init.php";
             <label class="form-check-label w-100 kage-valg">
                 <input type="radio" name="kagetype" value="kagemand" class="form-check-input d-none">
                 <div class="d-flex justify-content-center">
-                    <img src="images/vandbakkelse.webp" alt="Kagemand" class="img-fluid w-100 kage-billede">
+                    <img src="../images/vandbakkelse.webp" alt="Kagemand" class="img-fluid w-100 kage-billede">
                 </div>
             </label>
         </div>
@@ -91,7 +91,7 @@ require "settings/init.php";
             <label class="form-check-label w-100 kage-valg">
                 <input type="radio" name="kagetype" value="kagedame" class="form-check-input d-none">
             <div class="d-flex justify-content-center">
-                <img src="images/Hindbærsnitte%20(1).webp" alt="Kagedame" class="img-fluid w-100 kage-billede">
+                <img src="../images/Hindbærsnitte%20(1).webp" alt="Kagedame" class="img-fluid w-100 kage-billede">
             </div>
             </label>
         </div>
@@ -101,7 +101,7 @@ require "settings/init.php";
             <label class="form-check-label w-100 kage-valg">
                 <input type="radio" name="kagetype" value="kageperson" class="form-check-input d-none">
             <div class="d-flex justify-content-center">
-                <img src="images/tebolle.webp" alt="Kageperson" class="img-fluid w-100 kage-billede">
+                <img src="../images/tebolle.webp" alt="Kageperson" class="img-fluid w-100 kage-billede">
             </div>
             </label>
         </div>

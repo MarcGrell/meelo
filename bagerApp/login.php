@@ -12,12 +12,12 @@ require "settings/init.php";
     <meta name="author" content="Udgiver">
     <meta name="copyright" content="Information om copyright">
 
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="../css/styles.css" rel="stylesheet" type="text/css">
     <script src="https://kit.fontawesome.com/30d6e0b537.js" crossorigin="anonymous"></script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="icon" type="image/x-icon" href="images/croissantLogo2.png">
+    <link rel="icon" type="image/x-icon" href="../images/croissantLogo2.png">
 
 </head>
 
@@ -34,7 +34,7 @@ require "settings/init.php";
             <span class="input-group-text border-primary bg-white"><i class="fa-solid fa-lock text-primary"></i></span>
             <input type="password" class="form-control border-primary text-primary" placeholder="PASSWORD">
         </div>
-        <a href="kalender.php" class="btn btn-primary text-white w-100 mt-4">LOGIN</a>
+        <a href="index.php" class="btn btn-primary text-white w-100 mt-4">LOGIN</a>
         <div class="mt-2 text-end">
             <a class="text-primary">Forgot password?</a>
         </div>

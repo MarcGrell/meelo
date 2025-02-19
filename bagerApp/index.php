@@ -13,12 +13,12 @@ require "settings/init.php";
     <meta name="author" content="Udgiver">
     <meta name="copyright" content="Information om copyright">
 
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="../css/styles.css" rel="stylesheet" type="text/css">
     <script src="https://kit.fontawesome.com/30d6e0b537.js" crossorigin="anonymous"></script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="icon" type="image/x-icon" href="images/croissantLogo2.png">
+    <link rel="icon" type="image/x-icon" href="../images/croissantLogo2.png">
 
     <!-- jQuery necessary for Bootstrap's JavaScript plugins -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

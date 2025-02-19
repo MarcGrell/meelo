@@ -16,7 +16,7 @@ require "settings/init.php";
     <meta name="author" content="Udgiver">
     <meta name="copyright" content="Information om copyright">
 
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="../css/styles.css" rel="stylesheet" type="text/css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -26,7 +26,7 @@ require "settings/init.php";
 
 
 <div class="container d-flex flex-column"
-     style="background-image: url('images/backgroundLight.png');
+     style="background-image: url('../images/backgroundLight.png');
              background-size: cover;
              background-repeat: no-repeat;
              background-position: center;
@@ -37,7 +37,7 @@ require "settings/init.php";
         </div>
 
         <div class="d-flex justify-content-center align-items-center">
-            <img src="images/croissantCheckmark.png" alt="Croissant med flueben" class="mx-5 mt-3 mb-5 w-75 checkmarkLogo">
+            <img src="../images/croissantCheckmark.png" alt="Croissant med flueben" class="mx-5 mt-3 mb-5 w-75 checkmarkLogo">
         </div>
 
         <div class="d-flex justify-content-center align-items-center">
