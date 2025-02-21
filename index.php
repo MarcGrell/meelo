@@ -82,10 +82,10 @@ min-height: 100vh;"
             </div>
         </div>
 
-        <form id="datetimeForm" class="mt-3">
-            <div class="mb-4">
+        <form id="confirmationForm" method="POST" action="confirm.php">
+            <div class="mb-4 mt-3">
                 <label for="datetimeInput" class="form-label">Vælg dato og tid for afhentning:</label>
-                <input type="datetime-local" class="form-control" id="datetimeInput" name="datetimeInput">
+                <input type="datetime-local" class="form-control" id="inpuDate" name="data[inpuDate]" required>
             </div>
 
             <div class="d-flex justify-content-center align-items-center flex-column pb-5 gap-2 mt-5">
@@ -95,7 +95,7 @@ min-height: 100vh;"
                             class="fa-sharp fa-solid fa-arrow-left"></i> TILBAGE
                 </button>
             </div>
-        </form>
+
     </div>
 </div>
 
@@ -145,7 +145,8 @@ min-height: 100vh;"
         <div class="col-12 mb-4 col-md-4 px-5">
             <h5 class="text-start">Kagemand</h5>
             <label class="form-check-label w-100 kage-valg">
-                <input type="radio" id="cakeType" name="cakeType" value="kagemand" class="form-check-input d-none">
+                <input type="radio" id="inpuType" name="data[inpuType]" value="kagemand"
+                       class="form-check-input d-none">
                 <div class="d-flex justify-content-center">
                     <img src="images/vandbakkelse.webp" alt="Kagemand" class="img-fluid w-100 kage-billede">
                 </div>
@@ -155,7 +156,8 @@ min-height: 100vh;"
         <div class="col-12 mb-4 col-md-4 px-5">
             <h5 class="text-start">Kagekvinde</h5>
             <label class="form-check-label w-100 kage-valg">
-                <input type="radio" id="cakeType" name="cakeType" value="kagedame" class="form-check-input d-none">
+                <input type="radio" id="inpuType" name="data[inpuType]" value="kagedame"
+                       class="form-check-input d-none">
                 <div class="d-flex justify-content-center">
                     <img src="images/Hindbærsnitte (1).webp" alt="Kagedame" class="img-fluid w-100 kage-billede">
                 </div>
@@ -165,7 +167,8 @@ min-height: 100vh;"
         <div class="col-12 mb-4 col-md-4 px-5">
             <h5 class="text-start">Kageperson</h5>
             <label class="form-check-label w-100 kage-valg">
-                <input type="radio" id="cakeType" name="cakeType" value="kageperson" class="form-check-input d-none">
+                <input type="radio" id="inpuType" name="data[inpuType]" value="kageperson"
+                       class="form-check-input d-none">
                 <div class="d-flex justify-content-center">
                     <img src="images/tebolle.webp" alt="Kageperson" class="img-fluid w-100 kage-billede">
                 </div>
@@ -229,58 +232,56 @@ min-height: 100vh;"
             </div>
         </div>
 
-        <form id="cakeForm" name="cakeForm" class="mt-4">
-            <div class="mb-3">
-                <select class="form-select mb-2" aria-label="Dropdown 1" id="cakeVar" name="cakeVar">
-                    <option selected>Kagevariant</option>
-                    <option value="Option 1">Brunsviger</option>
-                    <option value="Option 2">Hindbærsnitte</option>
-                    <option value="Option 3">Vandbakkelse</option>
-                    <option value="Option 4">Kanelstang</option>
-                    <option value="Option 5">Wienerbrød</option>
-                    <option value="Option 6">Tebolle</option>
-                    <option value="Option 7">Chokoladekage</option>
-                </select>
-                <select class="form-select mb-2" aria-label="Dropdown 2" id="candyType" name="candyType">
-                    <option selected>Slik</option>
-                    <option value="Option 1">Click-Mix</option>
-                    <option value="Option 2">Matador-Mix</option>
-                    <option value="Option 3">M&M's</option>
-                </select>
-                <select class="form-select mb-2" aria-label="Dropdown 3" id="icingType" name="icingType">
-                    <option selected>Glasur og/eller flødeskum</option>
-                    <option value="Option 1">Glasur</option>
-                    <option value="Option 2">Flødeskum</option>
-                    <option value="Option 3">Glasur og flødeskum</option>
-                    <option value="Option 4">Intet</option>
-                </select>
-                <select class="form-select mb-2" aria-label="Dropdown 4" id="hairType" name="hairType4">
-                    <option selected>Hårtype</option>
-                    <option value="Option 1">Karamel, kort</option>
-                    <option value="Option 2">Karamel, mellem</option>
-                    <option value="Option 3">Karamel, langt</option>
-                    <option value="Option 4">Jordbær, kort</option>
-                    <option value="Option 5">Jordbær, mellem</option>
-                    <option value="Option 6">Jordbær, langt</option>
-                    <option value="Option 7">Lakrids, kort</option>
-                    <option value="Option 8">Lakrids, mellem</option>
-                    <option value="Option 9">Lakrids, langt</option>
-                </select>
-                <select class="form-select mb-2" aria-label="Dropdown 5" id="pax" name="pax">
-                    <option selected>Antal personer</option>
-                    <option value="Option 1">10-15</option>
-                    <option value="Option 2">15-20</option>
-                    <option value="Option 3">20-25</option>
-                    <option value="Option 4">25-30</option>
-                </select>
-            </div>
+        <div class="mb-3">
+            <select class="form-select mb-2" aria-label="Dropdown 1" name="data[inpuVar]" id="inpuVar">
+                <option selected>Kagevariant</option>
+                <option value="Brunsviger">Brunsviger</option>
+                <option value="Hindbærsnitte">Hindbærsnitte</option>
+                <option value="Vandbakkelse">Vandbakkelse</option>
+                <option value="Kanelstang">Kanelstang</option>
+                <option value="Wienerbrød">Wienerbrød</option>
+                <option value="Tebolle">Tebolle</option>
+                <option value="Chokoladekage">Chokoladekage</option>
+            </select>
+            <select class="form-select mb-2" aria-label="Dropdown 2" name="data[inpuCandy]" id="inpuCandy">
+                <option selected>Slik</option>
+                <option value="Click-Mix">Click-Mix</option>
+                <option value="Matador-Mix">Matador-Mix</option>
+                <option value="M&M's">M&M's</option>
+            </select>
+            <select class="form-select mb-2" aria-label="Dropdown 3" name="data[inpuIcing]" id="inpuIcing">
+                <option selected>Glasur og/eller flødeskum</option>
+                <option value="Glasur">Glasur</option>
+                <option value="Flødeskum">Flødeskum</option>
+                <option value="Glasur og flødeskum">Glasur og flødeskum</option>
+                <option value="Intet">Intet</option>
+            </select>
+            <select class="form-select mb-2" aria-label="Dropdown 4" name="data[inpuHair]" id="inpuHair">
+                <option selected>Hårtype</option>
+                <option value="Karamel, kort">Karamel, kort</option>
+                <option value="Karamel, mellem">Karamel, mellem</option>
+                <option value="Karamel, langt">Karamel, langt</option>
+                <option value="Jordbær, kort">Jordbær, kort</option>
+                <option value="Jordbær, mellem">Jordbær, mellem</option>
+                <option value="Jordbær, langt">Jordbær, langt</option>
+                <option value="Lakrids, kort">Lakrids, kort</option>
+                <option value="Lakrids, mellem">Lakrids, mellem</option>
+                <option value="Lakrids, langt">Lakrids, langt</option>
+            </select>
+            <select class="form-select mb-2" aria-label="Dropdown 5" name="data[inpuPax]" id="inpuPax">
+                <option selected>Antal personer</option>
+                <option value="10-15">10-15</option>
+                <option value="15-20">15-20</option>
+                <option value="20-25">20-25</option>
+                <option value="25-30">25-30</option>
+            </select>
+        </div>
 
-            <div class="mb-3">
+        <div class="mb-3">
                 <textarea class="form-control" placeholder="Tekst på marcipanbånd (maks 50 tegn):" rows="3"
-                          id="cakeText" name="cakeText"></textarea>
-            </div>
+                          name="data[inpuText]" id="inpuText"></textarea>
+        </div>
 
-        </form>
         <div class="d-flex justify-content-center align-items-center flex-column pb-5 gap-2 mt-5">
             <button type="button" class="btn btn-primary rounded-3 text-white p-3 px-4 next-btn">VIDERE <i
                         class="fa-sharp fa-solid fa-arrow-right"></i></button>
@@ -301,76 +302,82 @@ min-height: 100vh;"
         <div class="col-md-6 mt-4">
             <h1 class="text-center mb-2">Dine oplysninger</h1>
         </div>
-        <div>
-            <div class="stepprocessbar">
-                <div class="steps-horizontal mb-4">
-                    <div class="step-horizontal complete">
-                        <div class="step-icon">
-                            <i class="fa-regular fa-calendar-days"></i>
-                        </div>
+
+
+
+        <div class="stepprocessbar">
+            <div class="steps-horizontal mb-4">
+                <div class="step-horizontal complete">
+                    <div class="step-icon">
+                        <i class="fa-regular fa-calendar-days"></i>
                     </div>
-                    <div class="step-horizontal complete">
-                        <div class="step-icon">
-                            <i class="fa-solid fa-person-half-dress"></i>
-                        </div>
+                </div>
+                <div class="step-horizontal complete">
+                    <div class="step-icon">
+                        <i class="fa-solid fa-person-half-dress"></i>
                     </div>
-                    <div class="step-horizontal complete">
-                        <div class="step-icon">
-                            <i class="fa-solid fa-plus"></i>
-                        </div>
+                </div>
+                <div class="step-horizontal complete">
+                    <div class="step-icon">
+                        <i class="fa-solid fa-plus"></i>
                     </div>
-                    <div class="step-horizontal active">
-                        <div class="step-icon">
-                            <i class="fa-solid fa-lightbulb"></i>
-                        </div>
+                </div>
+                <div class="step-horizontal active">
+                    <div class="step-icon">
+                        <i class="fa-solid fa-lightbulb"></i>
                     </div>
-                    <div class="step-horizontal">
-                        <div class="step-icon">
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                        </div>
+                </div>
+                <div class="step-horizontal">
+                    <div class="step-icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
                     </div>
-                    <div class="step-horizontal">
-                        <div class="step-icon">
-                            <i class="fa-solid fa-check"></i>
-                        </div>
+                </div>
+                <div class="step-horizontal">
+                    <div class="step-icon">
+                        <i class="fa-solid fa-check"></i>
                     </div>
                 </div>
             </div>
         </div>
 
-        <form id="customerForm">
-            <div class="mb-3">
-                <label for="name" class="form-label">Navn*</label>
-                <input type="text" class="form-control" id="custName" name="custName" placeholder="Jens Bager">
-            </div>
-            <div class="mb-3">
-                <label for="company" class="form-label">Firma</label>
-                <input type="text" class="form-control" id="custCompany" name="custCompany"
-                       placeholder="Hansens Bageri">
-            </div>
-            <div class="mb-3">
-                <label for="phone" class="form-label">Telefon*</label>
-                <input type="text" class="form-control" id="custPhone" name="custPhone" placeholder="54 82 13 15">
-            </div>
-            <div class="mb-3">
-                <label for="email" class="form-label">Email*</label>
-                <input type="email" class="form-control" id="custEmail" name="custEmail" placeholder="Jens@bager.dk">
-            </div>
-            <div class="mb-3">
-                <label for="custNotes" class="form-label">Bemærkninger</label>
-                <textarea class="form-control" id="custNotes" name="custNotes"
-                          placeholder="Har du noget at tilføje?"></textarea>
-            </div>
-            <div class="d-flex justify-content-center align-items-center flex-column pb-5 gap-2 mt-5">
-                <button type="button" class="btn btn-primary rounded-3 text-white p-3 px-4 next-btn">VIDERE <i
-                            class="fa-sharp fa-solid fa-arrow-right"></i></button>
-                <button type="button" class="btn btn-white rounded-3 text-decoration-underline prev-btn"><i
-                            class="fa-sharp fa-solid fa-arrow-left"></i> TILBAGE
-                </button>
-            </div>
-        </form>
+
+        <div class="mb-3">
+            <label for="name" class="form-label">Navn*</label>
+            <input type="text" class="form-control" name="data[inpuName]" id="inpuName" placeholder="Jens Bager">
+        </div>
+        <div class="mb-3">
+            <label for="company" class="form-label">Firma</label>
+            <input type="text" class="form-control" name="data[inpuCompany]" id="inpuCompany"
+                   placeholder="Hansens Bageri">
+        </div>
+        <div class="mb-3">
+            <label for="phone" class="form-label">Telefon*</label>
+            <input type="text" class="form-control" name="data[inpuPhoneNumber]" id="inpuPhoneNumber"
+                   placeholder="54 82 13 15">
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email*</label>
+            <input type="email" class="form-control" name="data[inpuEmail]" id="inpuEmail" placeholder="Jens@bager.dk">
+        </div>
+        <div class="mb-3">
+            <label for="custNotes" class="form-label">Bemærkninger</label>
+            <textarea class="form-control" name="data[inpuComment]" id="inpuComment"
+                      placeholder="Har du noget at tilføje?"></textarea>
+        </div>
+    </div>
+
+
+
+    <div class="d-flex justify-content-center align-items-center flex-column pb-5 gap-2 mt-5">
+        <button type="button" class="btn btn-primary rounded-3 text-white p-3 px-4 next-btn">VIDERE <i
+                    class="fa-sharp fa-solid fa-arrow-right"></i></button>
+        <button type="button" class="btn btn-white rounded-3 text-decoration-underline prev-btn"><i
+                    class="fa-sharp fa-solid fa-arrow-left"></i> TILBAGE
+        </button>
     </div>
 </div>
+
+
 
 <!-- Confirmation Page -->
 <div class="container section d-none" id="section-6">
@@ -415,45 +422,31 @@ min-height: 100vh;"
                     </div>
                 </div>
             </div>
-            <form id="confirmationForm" method="POST" action="confirm.php">
-                <div class="d-flex text-start flex-column pb-5 gap-2 mt-5 confirmation ms-2">
-                    <p><strong>Dato:</strong><span id="confirmDate"></span></p>
-                    <p><strong>Kagetype:</strong> <span id="confirmType"></span></p>
-                    <p><strong>Kagevariant:</strong> <span id="confirmVar"></span></p>
-                    <p><strong>Slik:</strong> <span id="confirmCandy"></span></p>
-                    <p><strong>Glasur:</strong> <span id="confirmIcing"></span></p>
-                    <p><strong>Hårtype:</strong> <span id="confirmHair"></span></p>
-                    <p><strong>Antal personer:</strong> <span id="confirmPax"></span></p>
-                    <p><strong>Tekst:</strong> <span id="confirmText"></span></p>
-                    <p><strong>Navn:</strong> <span id="confirmName"></span></p>
-                    <p><strong>Firma:</strong> <span id="confirmCompany"></span></p>
-                    <p><strong>Telefon:</strong> <span id="confirmPhone"></span></p>
-                    <p><strong>Email:</strong> <span id="confirmEmail"></span></p>
-                    <p><strong>Bemærkninger:</strong> <span id="confirmNotes"></span></p>
-                </div>
-                <input type="hidden" name="data[inpuDate]" id="inpuDate">
-                <input type="hidden" name="data[inpuType]" id="inpuType">
-                <input type="hidden" name="data[inpuVar]" id="inpuVar">
-                <input type="hidden" name="data[inpuCandy]" id="inpuCandy">
-                <input type="hidden" name="data[inpuIcing]" id="inpuIcing">
-                <input type="hidden" name="data[inpuHair]" id="inpuHair">
-                <input type="hidden" name="data[inpuPax]" id="inpuPax">
-                <input type="hidden" name="data[inpuText]" id="inpuText">
-                <input type="hidden" name="data[inpuName]" id="inpuName">
-                <input type="hidden" name="data[inpuCompany]" id="inpuCompany">
-                <input type="hidden" name="data[inpuPhoneNumber]" id="inpuPhoneNumber">
-                <input type="hidden" name="data[inpuEmail]" id="inpuEmail">
-                <input type="hidden" name="data[inpuComment]" id="inpuComment">
+
+            <div class="d-flex text-start flex-column pb-5 gap-2 mt-5 confirmation ms-2">
+                <p><strong>Dato:</strong><span id="confirmDate"></span></p>
+                <p><strong>Kagetype:</strong> <span id="confirmType"></span></p>
+                <p><strong>Kagevariant:</strong> <span id="confirmVar"></span></p>
+                <p><strong>Slik:</strong> <span id="confirmCandy"></span></p>
+                <p><strong>Glasur:</strong> <span id="confirmIcing"></span></p>
+                <p><strong>Hårtype:</strong> <span id="confirmHair"></span></p>
+                <p><strong>Antal personer:</strong> <span id="confirmPax"></span></p>
+                <p><strong>Tekst:</strong> <span id="confirmText"></span></p>
+                <p><strong>Navn:</strong> <span id="confirmName"></span></p>
+                <p><strong>Firma:</strong> <span id="confirmCompany"></span></p>
+                <p><strong>Telefon:</strong> <span id="confirmPhone"></span></p>
+                <p><strong>Email:</strong> <span id="confirmEmail"></span></p>
+                <p><strong>Bemærkninger:</strong> <span id="confirmNotes"></span></p>
+            </div>
 
 
-                <div class="d-flex justify-content-center align-items-center flex-column pb-5 gap-2">
-                    <button type="submit" class="btn btn-secondary rounded-3 text-white p-3 px-4 next-btn">BEKRÆFT ORDRE
-                    </button>
-                    <button type="button" class="btn btn-white rounded-3 text-decoration-underline prev-btn"><i
-                                class="fa-sharp fa-solid fa-arrow-left"></i> TILBAGE
-                    </button>
-                </div>
-            </form>
+            <div class="d-flex justify-content-center align-items-center flex-column pb-5 gap-2">
+                <button type="submit" class="btn btn-secondary rounded-3 text-white p-3 px-4 next-btn">BEKRÆFT ORDRE
+                </button>
+                <button type="button" class="btn btn-white rounded-3 text-decoration-underline prev-btn"><i
+                            class="fa-sharp fa-solid fa-arrow-left"></i> TILBAGE
+                </button>
+            </div>
         </div>
     </div>
 </div>
@@ -520,19 +513,19 @@ min-height: 100vh;"
 
     function displayConfirmation() {
         // Gather form data
-        const datetimeInput = document.getElementById('datetimeInput').value;
-        const cakeType = document.querySelector('input[name="cakeType"]:checked').nextElementSibling.querySelector('img').alt;
-        const cakeVar = document.getElementById('cakeVar').options[document.getElementById('cakeVar').selectedIndex].text;
-        const candyType = document.getElementById('candyType').options[document.getElementById('candyType').selectedIndex].text;
-        const icingType = document.getElementById('icingType').options[document.getElementById('icingType').selectedIndex].text;
-        const hairType = document.getElementById('hairType').options[document.getElementById('hairType').selectedIndex].text;
-        const pax = document.getElementById('pax').options[document.getElementById('pax').selectedIndex].text;
-        const cakeText = document.getElementById('cakeText').value;
-        const custName = document.getElementById('custName').value;
-        const custCompany = document.getElementById('custCompany').value;
-        const custPhone = document.getElementById('custPhone').value;
-        const custEmail = document.getElementById('custEmail').value;
-        const custNotes = document.getElementById('custNotes').value;
+        const datetimeInput = document.getElementById('inpuDate').value;
+        const cakeType = document.querySelector('input[name="data[inpuType]"]:checked').nextElementSibling.querySelector('img').alt;
+        const cakeVar = document.getElementById('inpuVar').options[document.getElementById('inpuVar').selectedIndex].text;
+        const candyType = document.getElementById('inpuCandy').options[document.getElementById('inpuCandy').selectedIndex].text;
+        const icingType = document.getElementById('inpuIcing').options[document.getElementById('inpuIcing').selectedIndex].text;
+        const hairType = document.getElementById('inpuHair').options[document.getElementById('inpuHair').selectedIndex].text;
+        const pax = document.getElementById('inpuPax').options[document.getElementById('inpuPax').selectedIndex].text;
+        const cakeText = document.getElementById('inpuPax').value;
+        const custName = document.getElementById('inpuName').value;
+        const custCompany = document.getElementById('inpuCompany').value;
+        const custPhone = document.getElementById('inpuPhoneNumber').value;
+        const custEmail = document.getElementById('inpuEmail').value;
+        const custNotes = document.getElementById('inpuComment').value;
 
         // Display data in the confirmation page
         document.getElementById('confirmDate').textContent = datetimeInput;
@@ -548,21 +541,6 @@ min-height: 100vh;"
         document.getElementById('confirmPhone').textContent = custPhone;
         document.getElementById('confirmEmail').textContent = custEmail;
         document.getElementById('confirmNotes').textContent = custNotes;
-
-        // Populate hidden form fields
-        document.getElementById('inpuDate').value = datetimeInput;
-        document.getElementById('inpuType').value = cakeType;
-        document.getElementById('inpuVar').value = cakeVar;
-        document.getElementById('inpuCandy').value = candyType;
-        document.getElementById('inpuIcing').value = icingType;
-        document.getElementById('inpuHair').value = hairType;
-        document.getElementById('inpuPax').value = pax;
-        document.getElementById('inpuText').value = cakeText;
-        document.getElementById('inpuName').value = custName;
-        document.getElementById('inpuCompany').value = custCompany;
-        document.getElementById('inpuPhoneNumber').value = custPhone;
-        document.getElementById('inpuEmail').value = custEmail;
-        document.getElementById('inpuComment').value = custNotes;
     }
 </script>
 </body>
